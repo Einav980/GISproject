@@ -1,0 +1,2003 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 1,
+                "NAMEENG": "KIRYAT SHALOM",
+                "LINE": "M1",
+                "MASAD": "M1N-31",
+                "NAME": "קריית שלום",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.783064209357462,
+                    32.04591444902168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 2,
+                "NAMEENG": "KFAR SABA - EAST",
+                "LINE": "M1",
+                "MASAD": "M1N-10",
+                "NAME": "כפר סבא מזרח",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.934903163547844,
+                    32.176765749614148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 3,
+                "NAMEENG": "HAHAGANA",
+                "LINE": "M1",
+                "MASAD": "M1N-30",
+                "NAME": "ההגנה",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.785608268679987,
+                    32.052990394233099
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 4,
+                "NAMEENG": "YITZHAK SADE",
+                "LINE": "M1",
+                "MASAD": "M1N-29",
+                "NAME": "יצחק שדה",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.792118346444951,
+                    32.062800298464545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 5,
+                "NAMEENG": "HASHALOM",
+                "LINE": "M1",
+                "MASAD": "M1N-28",
+                "NAME": "השלום",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.795152438050351,
+                    32.073538219409855
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 6,
+                "NAMEENG": "TEL AVIV CENTER",
+                "LINE": "M1",
+                "MASAD": "M1N-27",
+                "NAME": "תל אביב מרכז",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.796562526421589,
+                    32.08362515522272
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 7,
+                "NAMEENG": "NAMIR - PINKAS",
+                "LINE": "M1",
+                "MASAD": "M1N-26",
+                "NAME": "נמיר - פנקס",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.795472586131211,
+                    32.090168126431031
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 8,
+                "NAMEENG": "HAYARKON",
+                "LINE": "M1",
+                "MASAD": "M1N-25",
+                "NAME": "הירקון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.792891669018779,
+                    32.099096094374467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 9,
+                "NAMEENG": "AVIV BASE",
+                "LINE": "M1",
+                "MASAD": "M1N-24",
+                "NAME": "מחנה אביב",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.800174718299367,
+                    32.105781010370606
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 10,
+                "NAMEENG": "UNIVERSITY",
+                "LINE": "M1",
+                "MASAD": "M1N-23",
+                "NAME": "אוניברסיטת ת\"א",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.801387793571536,
+                    32.114411954731629
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 11,
+                "NAMEENG": "RAMAT AVIV",
+                "LINE": "M1",
+                "MASAD": "M1N-22",
+                "NAME": "רמת אביב",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.802691875890986,
+                    32.123821895173855
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 12,
+                "NAMEENG": "HASARAF",
+                "LINE": "M1",
+                "MASAD": "M1N-20",
+                "NAME": "השרף",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.830819969556231,
+                    32.138758631597433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 13,
+                "NAMEENG": "SOKOLOV",
+                "LINE": "M1",
+                "MASAD": "M1N-9",
+                "NAME": "סוקולוב",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.838230016132059,
+                    32.145121548868033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 14,
+                "NAMEENG": "TAAS WEST",
+                "LINE": "M1",
+                "MASAD": "M1N-19",
+                "NAME": "תע\"ש מערב",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.853248023376381,
+                    32.148262434339024
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 15,
+                "NAMEENG": "TAAS EAST",
+                "LINE": "M1",
+                "MASAD": "M1N-18",
+                "NAME": "תע\"ש מזרח",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.86403599579932,
+                    32.146864372179962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 16,
+                "NAMEENG": "RAMAT HADAR",
+                "LINE": "M1",
+                "MASAD": "M1N-17",
+                "NAME": "רמת הדר",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.878559962195176,
+                    32.145373286647846
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 17,
+                "NAMEENG": "ZABOTINSKY",
+                "LINE": "M1",
+                "MASAD": "M1N-16",
+                "NAME": "ז'בוטינסקי",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.890952929462401,
+                    32.143733214994128
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 18,
+                "NAMEENG": "HABANIM",
+                "LINE": "M1",
+                "MASAD": "M1N-15",
+                "NAME": "הבנים",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.894476043669044,
+                    32.157000119906215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 19,
+                "NAMEENG": "TCHERNIHOVSKY",
+                "LINE": "M1",
+                "MASAD": "M1N-14",
+                "NAME": "טשרניחובסקי",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.893113223353019,
+                    32.176908019666278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 20,
+                "NAMEENG": "WEIZMAN",
+                "LINE": "M1",
+                "MASAD": "M1N-13",
+                "NAME": "ויצמן",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.901518212036855,
+                    32.176909964969695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 21,
+                "NAMEENG": "KFAR SABA - CENTER",
+                "LINE": "M1",
+                "MASAD": "M1N-12",
+                "NAME": "כפר סבא מרכז",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.913254170834719,
+                    32.174179904112371
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 22,
+                "NAMEENG": "ELKALAI",
+                "LINE": "M1",
+                "MASAD": "M1N-11",
+                "NAME": "אלקלעי",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.926055120955418,
+                    32.170591841331131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 23,
+                "NAMEENG": "BEN GOURION",
+                "LINE": "M1",
+                "MASAD": "M1N-8",
+                "NAME": "בן גוריון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.84235009960296,
+                    32.155108467059222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 24,
+                "NAMEENG": "HERTZLIYA - CENTER",
+                "LINE": "M1",
+                "MASAD": "M1N-7",
+                "NAME": "הרצליה מרכז",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.842680198799684,
+                    32.166298403327545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 25,
+                "NAMEENG": "IDC",
+                "LINE": "M1",
+                "MASAD": "M1N-6",
+                "NAME": "הרצליה בינתחומי",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.84029231694165,
+                    32.179121348639107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 26,
+                "NAMEENG": "WEST RAIL STATION",
+                "LINE": "M1",
+                "MASAD": "M1N-5",
+                "NAME": "תחנתרעננה רכבת מערב",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.851381320047537,
+                    32.181173265750473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 27,
+                "NAMEENG": "RAANANA-CENTER",
+                "LINE": "M1",
+                "MASAD": "M1N-4",
+                "NAME": "רעננה מרכז",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.871636290935712,
+                    32.181170134948054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 28,
+                "NAMEENG": "AKIVA",
+                "LINE": "M1",
+                "MASAD": "M1N-3",
+                "NAME": "עקיבא",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.883534358615584,
+                    32.190494006861627
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 29,
+                "NAMEENG": "RAANANA - TIDHAR",
+                "LINE": "M1",
+                "MASAD": "M1N-2",
+                "NAME": "התדהר",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.884242428383203,
+                    32.198475958610828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 30,
+                "NAMEENG": "DEPOT RAANANA",
+                "LINE": "M1",
+                "MASAD": "M1N-1",
+                "NAME": "תחנת דפו",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.890558452601717,
+                    32.202150897055219
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 31,
+                "NAMEENG": "GLILOT TRANSPORTATION HUB",
+                "LINE": "M1",
+                "MASAD": "M1N-21",
+                "NAME": "מרכז תחבורה גלילות",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.808410936335555,
+                    32.131476815754255
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 32,
+                "NAMEENG": "Kaplan",
+                "LINE": "M1",
+                "MASAD": "M1S-16",
+                "NAME": "קפלן",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.816958593073203,
+                    31.869395199087439
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 33,
+                "NAMEENG": "Hakibutsim",
+                "LINE": "M1",
+                "MASAD": "M1S-15",
+                "NAME": "הקיבוצים",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.816054725056659,
+                    31.884108124541473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 34,
+                "NAMEENG": "Rehovot Center",
+                "LINE": "M1",
+                "MASAD": "M1S-14",
+                "NAME": "רחובות מרכז",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.811873814414469,
+                    31.893574099986015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 35,
+                "NAMEENG": "Weizman Institute",
+                "LINE": "M1",
+                "MASAD": "M1S-13",
+                "NAME": "מכון ויצמן",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.805997937211032,
+                    31.906457066878385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 36,
+                "NAMEENG": "Science Employment Park",
+                "LINE": "M1",
+                "MASAD": "M1S-12",
+                "NAME": "פרק המדע",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.801106020059628,
+                    31.915020051020655
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 37,
+                "NAMEENG": "Nes Tziona Center",
+                "LINE": "M1",
+                "MASAD": "M1S-11",
+                "NAME": "נס ציונה מרכז",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.79871115153054,
+                    31.929418987572134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 38,
+                "NAMEENG": "Givat Hator",
+                "LINE": "M1",
+                "MASAD": "M1S-10",
+                "NAME": "גבעת התור",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.800059222775708,
+                    31.93763893420882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 39,
+                "NAMEENG": "Harishonim",
+                "LINE": "M1",
+                "MASAD": "M1S-9",
+                "NAME": "ראשונים",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.802205334512031,
+                    31.950564849051165
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 40,
+                "NAMEENG": "Rishon Letzion Center",
+                "LINE": "M1",
+                "MASAD": "M1S-8",
+                "NAME": "ראשון לציון מרכז",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.799787464116022,
+                    31.964850786301131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 41,
+                "NAMEENG": "Bnot Khil",
+                "LINE": "M1",
+                "MASAD": "M1S-7",
+                "NAME": "בנות חיל",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.796459560680972,
+                    31.975156751457131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 42,
+                "NAMEENG": "Ramat Eliyahu",
+                "LINE": "M1",
+                "MASAD": "M1S-6",
+                "NAME": "רמת אליהו",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.793633706370301,
+                    31.991025682704525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 43,
+                "NAMEENG": "Hatsiyonut Avenue",
+                "LINE": "M1",
+                "MASAD": "M1S-17",
+                "NAME": "שד' הציונות",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.807983598080092,
+                    31.981137643669673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 44,
+                "NAMEENG": "Yosef Burg",
+                "LINE": "M1",
+                "MASAD": "M1S-18",
+                "NAME": "יוסף בורג",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.821869496612393,
+                    31.972009604449315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 45,
+                "NAMEENG": "Asaf Harofe",
+                "LINE": "M1",
+                "MASAD": "M1S-20",
+                "NAME": "אסף הרופא",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.841588451462123,
+                    31.970048487597754
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 46,
+                "NAMEENG": "Tzrifin",
+                "LINE": "M1",
+                "MASAD": "M1S-21",
+                "NAME": "צריפין",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.84143736994902,
+                    31.960828539665776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 47,
+                "NAMEENG": "Be'er Ya'akov",
+                "LINE": "M1",
+                "MASAD": "M1S-22",
+                "NAME": "באר יעקב",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.842088270805682,
+                    31.949795596123288
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 48,
+                "NAMEENG": "Moshe Sharet",
+                "LINE": "M1",
+                "MASAD": "M1S-24",
+                "NAME": "משה שרת",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.855275123957085,
+                    31.935323589933127
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 49,
+                "NAMEENG": "Ramle Center",
+                "LINE": "M1",
+                "MASAD": "M1S-26",
+                "NAME": "רמלה מרכז",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.876247030994001,
+                    31.928253493140449
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 50,
+                "NAMEENG": "Tel-Hai",
+                "LINE": "M1",
+                "MASAD": "M1S-27",
+                "NAME": "תל חי",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.885804104724393,
+                    31.938038377612781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 51,
+                "NAMEENG": "Lod Center",
+                "LINE": "M1",
+                "MASAD": "M1S-28",
+                "NAME": "לוד מרכז",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.891577166211185,
+                    31.945887297577709
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 52,
+                "NAMEENG": "Menachem Begin",
+                "LINE": "M1",
+                "MASAD": "M1S-5",
+                "NAME": "מנחם בגין",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.774971853083919,
+                    32.004627728489957
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 53,
+                "NAMEENG": "Eilat/Dov Hoz",
+                "LINE": "M1",
+                "MASAD": "M1S-3",
+                "NAME": "אילת/דב הויז",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.765681042222383,
+                    32.024391680026341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 54,
+                "NAMEENG": "Holon Junction",
+                "LINE": "M1",
+                "MASAD": "M1S-1",
+                "NAME": "צומת חולון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.775882148941207,
+                    32.038028539097645
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 55,
+                "NAMEENG": "Yoseftal",
+                "LINE": "M1",
+                "MASAD": "M1S-4",
+                "NAME": "יוספטל",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.764921944554935,
+                    32.013306745584948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 56,
+                "NAMEENG": "Hamehkar",
+                "LINE": "M1",
+                "MASAD": "M1S-30",
+                "NAME": "המחקר",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.892870338777726,
+                    31.96547318144804
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 57,
+                "NAMEENG": "Lod North",
+                "LINE": "M1",
+                "MASAD": "M1S-31",
+                "NAME": "לוד צפון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.881480371133939,
+                    31.967354244683193
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 58,
+                "NAMEENG": "Tel Giburim",
+                "LINE": "M1",
+                "MASAD": "M1S-2",
+                "NAME": "תל גיבורים",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.768989107595473,
+                    32.032286615499729
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 59,
+                "NAMEENG": "Be'er Ya'akov South",
+                "LINE": "M1",
+                "MASAD": "M1S-23",
+                "NAME": "באר יעקב דרום",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.842196162561777,
+                    31.937617662351499
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 60,
+                "NAMEENG": "Kikar Hapalmakh",
+                "LINE": "M1",
+                "MASAD": "M1S-29",
+                "NAME": "כיכר הפלמ\"ח",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.897375262354494,
+                    31.957599195607216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 61,
+                "NAMEENG": "Wizman",
+                "LINE": "M1",
+                "MASAD": "M1S-25",
+                "NAME": "ויצמן",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.865105066530489,
+                    31.93047855349457
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 62,
+                "NAMEENG": "Herzog",
+                "LINE": "M1",
+                "MASAD": "M1S-19",
+                "NAME": "הרצוג",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.831204468475477,
+                    31.970240554024443
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 1,
+                "NAMEENG": "East Petah Tikva",
+                "LINE": "M2",
+                "MASAD": "M2-18",
+                "NAME": "פתח תקווה מזרח",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.902664370208306,
+                    32.082807474141759
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 2,
+                "NAMEENG": "Hahashmonaim",
+                "LINE": "M2",
+                "MASAD": "M2-7",
+                "NAME": "חשמונאים",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.78560341491125,
+                    32.069374304565265
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 3,
+                "NAMEENG": "Shlavim",
+                "LINE": "M2",
+                "MASAD": "M2-3",
+                "NAME": "שלבים",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.765218306492564,
+                    32.054009519898379
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 4,
+                "NAMEENG": "Carmelit",
+                "LINE": "M2",
+                "MASAD": "M2-4",
+                "NAME": "כרמלית",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.76571741371243,
+                    32.066163449902618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 5,
+                "NAMEENG": "Kikar Magen David",
+                "LINE": "M2",
+                "MASAD": "M2-5",
+                "NAME": "כיכר מגן דוד",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.77110044379598,
+                    32.070396392579227
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 6,
+                "NAMEENG": "Habima",
+                "LINE": "M2",
+                "MASAD": "M2-6",
+                "NAME": "הבימה",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.779160447035153,
+                    32.071977331605247
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 7,
+                "NAMEENG": "Wolfson Hospital",
+                "LINE": "M2",
+                "MASAD": "M2-1",
+                "NAME": "בית חולים וולפסון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.760235147077182,
+                    32.035360654990292
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 8,
+                "NAMEENG": "Bar Ilan University-Givat Shmuel",
+                "LINE": "M2",
+                "MASAD": "M2-13B",
+                "NAME": "גבעת שמואל -אונ' בר אילן",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.849497364208055,
+                    32.073754867134937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 9,
+                "NAMEENG": "Hazon Ish",
+                "LINE": "M2",
+                "MASAD": "M2-11B",
+                "NAME": "חזון איש",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.83415240355616,
+                    32.075827955545797
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 10,
+                "NAMEENG": "Hashalom",
+                "LINE": "M2",
+                "MASAD": "M2-8",
+                "NAME": "השלום",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.7953874256688,
+                    32.07219622593221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 11,
+                "NAMEENG": "Kikar Noga",
+                "LINE": "M2",
+                "MASAD": "M2-9",
+                "NAME": "כיכר נוגה",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.80781243608557,
+                    32.075245128909351
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 12,
+                "NAMEENG": "Katzenelson",
+                "LINE": "M2",
+                "MASAD": "M2-10",
+                "NAME": "כצנלסון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.816915428631155,
+                    32.075847066745943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 13,
+                "NAMEENG": "Haroe",
+                "LINE": "M2",
+                "MASAD": "M2-11",
+                "NAME": "הרא\"ה",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.825960402992514,
+                    32.074499015323298
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 14,
+                "NAMEENG": "Harav Levin",
+                "LINE": "M2",
+                "MASAD": "M2-12A",
+                "NAME": "הרב לוין",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.838673334359548,
+                    32.068721965301087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 15,
+                "NAMEENG": "Bar Ilan University-Ramat Gan",
+                "LINE": "M2",
+                "MASAD": "M2-13A",
+                "NAME": "רמת גן - אונ' בר אילן",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.849527343651268,
+                    32.071475879393212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 16,
+                "NAMEENG": "Kfar Ganim",
+                "LINE": "M2",
+                "MASAD": "M2-14",
+                "NAME": "כפר גנים",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.861101346674097,
+                    32.073616793344264
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 17,
+                "NAMEENG": "Ben Gurion",
+                "LINE": "M2",
+                "MASAD": "M2-15",
+                "NAME": "בן גוריון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.870378377602286,
+                    32.078608706281784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 18,
+                "NAMEENG": "Arlozorov",
+                "LINE": "M2",
+                "MASAD": "M2-16",
+                "NAME": "ארלוזורוב",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.877075426114544,
+                    32.085047626930155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 19,
+                "NAMEENG": "Petah Tikva City Hall",
+                "LINE": "M2",
+                "MASAD": "M2-17",
+                "NAME": "עיריית פתח תקווה",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.886768421689631,
+                    32.086104558513043
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 20,
+                "NAMEENG": "South Sirkin",
+                "LINE": "M2",
+                "MASAD": "M2-19",
+                "NAME": "סירקין דרום",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.910464362343056,
+                    32.083222421103358
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 21,
+                "NAMEENG": "North Sirkin",
+                "LINE": "M2",
+                "MASAD": "M2-20",
+                "NAME": "סירקין צפון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.913481441982931,
+                    32.092648350163941
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 22,
+                "NAMEENG": "Kahneman",
+                "LINE": "M2",
+                "MASAD": "M2-12B",
+                "NAME": "כהנמן",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.842692390645503,
+                    32.075732900221588
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 23,
+                "NAMEENG": "Industrial Park Sgula",
+                "LINE": "M2",
+                "MASAD": "M2-21",
+                "NAME": "אזור תעשיה סגולה",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.900081581425923,
+                    32.106184362817402
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 24,
+                "NAMEENG": "Nes Lagoyim",
+                "LINE": "M2",
+                "MASAD": "M2-2",
+                "NAME": "נס לגויים",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.762642225663058,
+                    32.044576588168454
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 1,
+                "NAMEENG": "HOLON CENTER",
+                "LINE": "M3",
+                "MASAD": "M3-5",
+                "NAME": "חולון מרכז",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.783493896493425,
+                    32.010849639243119
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 2,
+                "NAMEENG": "KIRYAT SHAUL",
+                "LINE": "M3",
+                "MASAD": "M3-20",
+                "NAME": "קרית שאול",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.823010856894093,
+                    32.12484375854482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 3,
+                "NAMEENG": "BEN GURION AIRPORT",
+                "LINE": "M3",
+                "MASAD": "M3-10",
+                "NAME": "נתב\"ג",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.868888693517803,
+                    32.001545138829542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 4,
+                "NAMEENG": "GLILOT NORTH",
+                "LINE": "M3",
+                "MASAD": "M3-22",
+                "NAME": "גלילות צפון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.807834084184641,
+                    32.147931729687834
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 5,
+                "NAMEENG": "HERZLIYA EMPLOYMENT AREA",
+                "LINE": "M3",
+                "MASAD": "M3-24",
+                "NAME": "א.תעסוקה הרצליה",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.805083224951112,
+                    32.163389662022631
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 6,
+                "NAMEENG": "PINCHAS ROSEN",
+                "LINE": "M3",
+                "MASAD": "M3-19",
+                "NAME": "פנחס רוזן",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.825432789298581,
+                    32.117715781735676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 7,
+                "NAMEENG": "RAMAT HACHAYAL - HA'ARAD",
+                "LINE": "M3",
+                "MASAD": "M3-18",
+                "NAME": "רמת החייל - הארד",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.840748714409273,
+                    32.111670715773457
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 8,
+                "NAMEENG": "KIRYAT ARYE TRAIN STATION",
+                "LINE": "M3",
+                "MASAD": "M3-17",
+                "NAME": "תחנת הרכבת קרית אריה",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.86297662242923,
+                    32.104862609129967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 9,
+                "NAMEENG": "KIRAYT ARYE EMPLOYMENT AREA",
+                "LINE": "M3",
+                "MASAD": "M3-16",
+                "NAME": "א. תעסוקה קרית אריה",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.86133054104198,
+                    32.095530671321065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 10,
+                "NAMEENG": "SOROKA - BEILINSON HOSPITAL",
+                "LINE": "M3",
+                "MASAD": "M3-15",
+                "NAME": "סורוקה - ביה\"ח בילינסון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.865793474731319,
+                    32.088806679912928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 11,
+                "NAMEENG": "HAKOMEMIYUT",
+                "LINE": "M3",
+                "MASAD": "M3-1",
+                "NAME": "הקוממיות",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.741809928653161,
+                    32.007898924331904
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 12,
+                "NAMEENG": "KFAR GANIM",
+                "LINE": "M3",
+                "MASAD": "M3-14",
+                "NAME": "כפר גנים",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.859896340644852,
+                    32.072743806189699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 13,
+                "NAMEENG": "RAMAT HASHARON EMPLOYMENT AREA",
+                "LINE": "M3",
+                "MASAD": "M3-23",
+                "NAME": "א.תעסוקה רמה\"ש",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.811743146216678,
+                    32.155511662958794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 14,
+                "NAMEENG": "BAT YAM YOSEFTAL",
+                "LINE": "M3",
+                "MASAD": "M3-2",
+                "NAME": "בת ים יוספטל",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.754077978847633,
+                    32.015411803776473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 15,
+                "NAMEENG": "HOLON YOSEFTAL",
+                "LINE": "M3",
+                "MASAD": "M3-3",
+                "NAME": "יוספטל",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.763584959837232,
+                    32.014764746138979
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 16,
+                "NAMEENG": "GOLDA MEIR",
+                "LINE": "M3",
+                "MASAD": "M3-4",
+                "NAME": "גולדה מאיר",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.773613931652754,
+                    32.013223689907605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 17,
+                "NAMEENG": "HAMELACHA",
+                "LINE": "M3",
+                "MASAD": "M3-6",
+                "NAME": "המלאכה",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.795994880882247,
+                    32.011096556654635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 18,
+                "NAMEENG": "HOLON INDUSTRIAL AREA",
+                "LINE": "M3",
+                "MASAD": "M3-7",
+                "NAME": "א. תעשייה חולון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.804946952841547,
+                    32.020521447835492
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 19,
+                "NAMEENG": "BIKAT ONO",
+                "LINE": "M3",
+                "MASAD": "M3-8",
+                "NAME": "בקעת אונו",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.844797935231767,
+                    32.024955165265936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 20,
+                "NAMEENG": "YIGAL ALON",
+                "LINE": "M3",
+                "MASAD": "M3-9",
+                "NAME": "יגאל אלון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.853876999573842,
+                    32.033516060471463
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 21,
+                "NAMEENG": "SHLOMO HAMELECH",
+                "LINE": "M3",
+                "MASAD": "M3-12",
+                "NAME": "שלמה המלך",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.856234173408836,
+                    32.053511934643083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 22,
+                "NAMEENG": "TEL HASHOMER HOSPITAL",
+                "LINE": "M3",
+                "MASAD": "M3-11",
+                "NAME": "ביה\"ח תל השומר",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.846179118785649,
+                    32.045713042609535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 23,
+                "NAMEENG": "LEVI ESHKOL",
+                "LINE": "M3",
+                "MASAD": "M3-13",
+                "NAME": "לוי אשכול",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.863311224344109,
+                    32.060323852249191
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 24,
+                "NAMEENG": "GLILOT TRANSPORTATION HUB",
+                "LINE": "M3",
+                "MASAD": "M3-21",
+                "NAME": "מרכז תחבורה גלילות",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.808409938201791,
+                    32.131723815049327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": 25,
+                "NAMEENG": "ARIEL SHARON PARK",
+                "LINE": "M3",
+                "MASAD": null,
+                "NAME": "פארק אריאל שרון",
+                "YEARMONTH": 202112
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.820285955395924,
+                    32.023327333141559
+                ]
+            }
+        }
+    ]
+}
