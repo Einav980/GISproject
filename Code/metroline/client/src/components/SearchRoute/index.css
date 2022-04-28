@@ -1,0 +1,45 @@
+.search-route-div {
+  width: 400px;
+  height: 250px;
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
+  background-color: #fff;
+  border-radius: 10px;
+  z-index: 5000;
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+}
+
+.search-route-title {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.search-route-header {
+  padding: 15px;
+  height: 20%;
+}
+.search-route-body {
+  width: 100%;
+  height: 60%;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-row-gap: 10px;
+}
+
+.search-route-bottom {
+  height: 20%;
+}
+
+.search-route-text-field {
+  padding: 10px;
+  display: flex;
+  position: static;
+  font-size: 28px !important;
+}
