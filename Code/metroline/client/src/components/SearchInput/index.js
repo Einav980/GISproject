@@ -7,6 +7,7 @@ import PlacesAutocomplete, {
 } from 'react-places-autocomplete';
 import TextField from '@mui/material/TextField';
 import { useState } from 'react';
+
 const SearchInput = (props) => {
   const [address, setAddress] = useState('');
   const placeHolderText = props.placeholder;

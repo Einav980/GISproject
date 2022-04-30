@@ -20,6 +20,8 @@ L.Icon.Default.mergeOptions({
   shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
 });
 
+
+
 const Map = () => {
   var location = center;
   var options = {
@@ -49,15 +51,28 @@ const Map = () => {
           position={[
             station.geometry.coordinates[1],
             station.geometry.coordinates[0],
-          ]}></Marker>
+          ]}>
+          <Popup>
+            <p id="popup-style">
+              Line: {station.properties.LINE}
+              <br />
+              {station.properties.NAME}
+              <br />
+              {station.properties.NAMEENG}
+            </p>
+          </Popup>
+        </Marker>
+      ))}
+      
+      {lines.features.map(line => (       
+        <Polyline
+          key={line.properties.DESCRPTION}
+          positions={[
+            line.geometry.coordinates
+            ]}>
+        </Polyline>
       ))}
 
-      {/* {lines.features.map(line => (
-        <Polyline>
-          key = {line.properties.DESCRPTION}
-          position = {line.geometry.coordinates}
-        </Polyline>
-      ))} */}
     </MapContainer>
   );
 };

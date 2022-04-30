@@ -7,11 +7,13 @@ import Places from './components/Places';
 import SearchRoute from './components/SearchRoute';
 import SearchInput from './components/SearchInput';
 import PlacesAutocomplete from 'react-places-autocomplete';
+import lines from './leafletData/MetroLines/linesData.json';
 
 function App() {
   const [address, setAddress] = useState('');
   const handleSelect = async (value) => {};
   return (
+    
     <>
       <SearchRoute />
       <Map />

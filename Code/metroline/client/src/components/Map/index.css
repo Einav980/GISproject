@@ -2,3 +2,10 @@
   width: 100vp;
   height: 100vh;
 }
+
+#popup-style {
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+}

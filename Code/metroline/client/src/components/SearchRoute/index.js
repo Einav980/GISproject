@@ -3,6 +3,7 @@ import strings from '../../constants/strings';
 import { TextField, InputAdornment } from '@mui/material';
 import { Search } from '@mui/icons-material';
 import SearchInput from '../SearchInput';
+
 const SearchRoute = () => {
   return (
     <div className='search-route-div'>
