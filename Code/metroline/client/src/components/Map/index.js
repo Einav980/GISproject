@@ -12,14 +12,7 @@ import features from '../../leafletData/MetroStations/data.json';
 import { useEffect, useState } from 'react';
 import './index.css';
 import axios from 'axios';
-
-delete L.Icon.Default.prototype._getIconUrl;
-
-L.Icon.Default.mergeOptions({
-  iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-  iconUrl: require('leaflet/dist/images/marker-icon.png'),
-  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
-});
+import { getLineIcon } from '../Icons';
 
 const Map = () => {
   const [stations, setStations] = useState([]);
@@ -55,23 +48,27 @@ const Map = () => {
         url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
       />
 
-      {stations.map((station) => (
-        <Marker
-          position={[
-            station.geometry.coordinates[1],
-            station.geometry.coordinates[0],
-          ]}>
-          <Popup>
-            <p id='popup-style'>
-              Line: {station.properties.LINE}
-              <br />
-              {station.properties.NAME}
-              <br />
-              {station.properties.NAMEENG}
-            </p>
-          </Popup>
-        </Marker>
-      ))}
+      {stations.map((station) => {
+        const line = station.properties.LINE.toLowerCase();
+        return (
+          <Marker
+            position={[
+              station.geometry.coordinates[1],
+              station.geometry.coordinates[0],
+            ]}
+            icon={getLineIcon(line)}>
+            <Popup>
+              <p id='popup-style'>
+                Line: {station.properties.LINE}
+                <br />
+                {station.properties.NAME}
+                <br />
+                {station.properties.NAMEENG}
+              </p>
+            </Popup>
+          </Marker>
+        );
+      })}
 
       {lines.features.map((line) => (
         <Polyline
