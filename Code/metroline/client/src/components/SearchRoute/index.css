@@ -8,15 +8,17 @@
   background-color: #fff;
   border-radius: 10px;
   z-index: 5000;
-  display: flex;
-  flex-direction: column;
-  direction: rtl;
 }
 
+.search-route-grid {
+  height: 100%;
+  direction: rtl;
+}
 .search-route-title {
   text-align: center;
   padding: 0;
   margin: 0;
+  font-weight: bold;
 }
 
 .search-route-header {
@@ -37,9 +39,6 @@
   height: 20%;
 }
 
-.search-route-text-field {
-  padding: 10px;
-  display: flex;
-  position: static;
-  font-size: 28px !important;
+.search-route-textfield {
+  display: block;
 }

@@ -1,29 +1,83 @@
 import './index.css';
 import strings from '../../constants/strings';
-import { TextField, InputAdornment } from '@mui/material';
-import { Search } from '@mui/icons-material';
+import {
+  TextField,
+  InputAdornment,
+  Grid,
+  Paper,
+  Typography,
+  IconButton,
+  Button,
+} from '@mui/material';
+import { Search, SwapVert } from '@mui/icons-material';
 import SearchInput from '../SearchInput';
+import { styled } from '@mui/material/styles';
+import { useState } from 'react';
+
+const Img = styled('img')({
+  margin: 'auto',
+  display: 'block',
+  maxWidth: '100%',
+  maxHeight: '100%',
+});
 
 const SearchRoute = () => {
+  const [startLocation, setStartLocation] = useState();
+  const [endLocation, setEndLocation] = useState();
+
+  const swapDirections = (event) => {
+    const temp = startLocation;
+    setStartLocation(endLocation);
+    setEndLocation(temp);
+  };
+
   return (
     <div className='search-route-div'>
-      <div className='search-route-header'>
-        <h2 className='search-route-title'>{strings.SEARCH_ROUTE_TITLE}</h2>
-      </div>
-      <div className='search-route-body'>
-        <SearchInput placeholder='Type address...' />
-        {/* <TextField
-          className='search-route-text-field'
-          placeholder='Test'
-          id='filled-hidden-label-small'
-          defaultValue='Small'
-          variant='filled'
-          size='small'
-        /> */}
-      </div>
-      <div className='search-route-bottom'>
-        <h2>End</h2>
-      </div>
+      <Grid
+        container
+        direction='column'
+        className='search-route-grid'
+        padding='10px'>
+        <Grid
+          item
+          xs={2}
+          container
+          alignItems='center'
+          justifyContent={'center'}>
+          <Typography align='center' fontSize='18px' fontWeight='bold'>
+            {strings.SEARCH_ROUTE_TITLE}
+          </Typography>
+        </Grid>
+        <Grid item xs={6} container>
+          <Grid item xs={10}>
+            <Grid item xs={12} padding={'5px'}>
+              <SearchInput placeholder='בחרו נקודת התחלה' direction='rtl' />
+            </Grid>
+            <Grid item xs={12} padding={'5px'}>
+              <SearchInput placeholder='בחרו נקודת סיום' direction='rtl' />
+            </Grid>
+          </Grid>
+          <Grid
+            item
+            xs={2}
+            container
+            alignItems='center'
+            justifyContent='center'>
+            <IconButton aria-label='swap' size='small'>
+              <SwapVert fontSize='large' />
+            </IconButton>
+          </Grid>
+        </Grid>
+        <Grid item xs={3} container justifyContent='center' alignItems='center'>
+          <Button
+            variant='contained'
+            startIcon={<Search />}
+            dir='ltr'
+            onClick={swapDirections}>
+            חפש
+          </Button>
+        </Grid>
+      </Grid>
     </div>
   );
 };

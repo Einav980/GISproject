@@ -25,25 +25,32 @@ const SearchInput = (props) => {
           <div>
             <TextField
               className='search-route-text-field'
-              label='התחלה'
+              label={props.label}
               variant='filled'
+              dir={props.direction}
+              fullWidth
+              InputProps={{
+                endAdornment: (
+                  <Button>
+                    <Search />
+                  </Button>
+                ),
+              }}
               {...getInputProps({ placeholder: placeHolderText })}
             />
-            <div>
-              {loading ? <div> loading...</div> : null}
-              {suggestions.map((suggestion) => {
-                const style = {
-                  backgroundColor: suggestion.active
-                    ? 'rgba(8,255,200,1)'
-                    : 'white',
-                };
-                return (
-                  <div {...getSuggestionItemProps(suggestion, { style })}>
-                    {suggestion.description}
-                  </div>
-                );
-              })}
-            </div>
+            {loading ? <div> loading...</div> : null}
+            {suggestions.map((suggestion) => {
+              const style = {
+                backgroundColor: suggestion.active
+                  ? 'rgba(8,255,200,1)'
+                  : 'white',
+              };
+              return (
+                <div {...getSuggestionItemProps(suggestion, { style })}>
+                  {suggestion.description}
+                </div>
+              );
+            })}
           </div>
         )}
       </PlacesAutocomplete>

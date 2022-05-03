@@ -1,6 +1,6 @@
 // Routers
 const routers = require('./router');
-
+const cors = require('cors');
 const express = require('express');
 const app = express();
 const port = 5000;
@@ -12,6 +12,11 @@ db.on('connected', () => {
   console.log('Error connecting to the database');
 });
 
+app.use(
+  cors({
+    origin: ['http://localhost:3000'],
+  })
+);
 app.use('/api', routers.stationRouter);
 
 app.listen(port, () => {
