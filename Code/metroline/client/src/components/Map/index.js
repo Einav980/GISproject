@@ -1,26 +1,32 @@
-import L from 'leaflet';
+import L, { latLng } from 'leaflet';
 import {
   MapContainer,
   TileLayer,
   Marker,
   Popup,
   Polyline,
+  Circle,
 } from 'react-leaflet';
 import center from '../../constants';
-import lines from '../../leafletData/MetroLines/linesData.json';
-import features from '../../leafletData/MetroStations/data.json';
 import { useEffect, useState } from 'react';
 import './index.css';
 import axios from 'axios';
 import { getLineIcon } from '../Icons';
+import { colors } from '../../constants';
 
 const Map = () => {
   const [stations, setStations] = useState([]);
+  const [lines, setLines] = useState([]);
 
   useEffect(() => {
     if (!stations.length) {
       axios.get(`http://localhost:5000/api/stations`).then((res) => {
         setStations(res.data);
+      });
+    }
+    if (!lines.length) {
+      axios.get(`http://localhost:5000/api/lines`).then((res) => {
+        setLines(res.data);
       });
     }
   });
@@ -56,6 +62,11 @@ const Map = () => {
               station.geometry.coordinates[1],
               station.geometry.coordinates[0],
             ]}
+            eventHandlers={{
+              click: (e) => {
+                console.log(e.target);
+              },
+            }}
             icon={getLineIcon(line)}>
             <Popup>
               <p id='popup-style'>
@@ -70,11 +81,19 @@ const Map = () => {
         );
       })}
 
-      {lines.features.map((line) => (
+      {lines.map((line) => (
         <Polyline
           key={line.properties.DESCRPTION}
+          color={colors[line.properties.NAME]}
+          weight={8}
           positions={[line.geometry.coordinates]}></Polyline>
       ))}
+      {lines.map((line) => {
+        <Circle
+          center={latLng(0, 0)}
+          radius={300}
+          fillColor={'#000000'}></Circle>;
+      })}
     </MapContainer>
   );
 };

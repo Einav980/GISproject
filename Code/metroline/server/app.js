@@ -17,7 +17,9 @@ app.use(
     origin: ['http://localhost:3000'],
   })
 );
+
 app.use('/api', routers.stationRouter);
+app.use('/api', routers.lineRouter);
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
