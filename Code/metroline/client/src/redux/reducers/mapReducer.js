@@ -13,6 +13,9 @@ const mapInitialState = {
   routeEndStation: {},
   routeStations: [],
   stations: [],
+  selectedStations: [],
+  routeStartAddress: '',
+  routeEndAddress: '',
 };
 
 export const mapSlice = createSlice({
@@ -35,13 +38,18 @@ export const mapSlice = createSlice({
       state.routeEndStation = payload;
     },
     setStationSelected: (state, { payload }) => {
-      console.log('Payload', payload);
-      state.stations
-        .filter((station) => payload.includes(station.properties.MASAD))
-        .forEach((station) => (station.selected = true));
+      state.selectedStations = state.stations.filter((station) =>
+        payload.includes(station.properties.MASAD)
+      );
     },
     clearSelectedStations: (state) => {
-      state.stations.forEach((station) => (station.selected = false));
+      state.selectedStations = [];
+    },
+    setRouteStartAddress: (state, { payload }) => {
+      state.routeStartAddress = payload;
+    },
+    setRouteEndAddress: (state, { payload }) => {
+      state.routeEndAddress = payload;
     },
   },
 });
@@ -54,6 +62,8 @@ export const {
   setEndStation,
   setStationSelected,
   clearSelectedStations,
+  setRouteStartAddress,
+  setRouteEndAddress,
 } = mapSlice.actions;
 
 export default mapSlice.reducer;

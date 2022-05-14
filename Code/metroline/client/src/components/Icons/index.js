@@ -39,8 +39,5 @@ export const getLineIcon = (line) => {
 
 export const getStationIcon = (station) => {
   const line = station.properties.LINE.toLowerCase();
-  if (station.selected) {
-    return icons[line];
-  }
-  return icons['default'];
+  return icons[line];
 };

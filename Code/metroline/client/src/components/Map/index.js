@@ -19,6 +19,8 @@ import { setStations } from '../../redux/reducers/mapReducer';
 const Map = () => {
   const [lines, setLines] = useState([]);
   const { stations } = useSelector((state) => state.map);
+  const { selectedStations } = useSelector((state) => state.map);
+  var mapStations = stations;
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -45,6 +47,11 @@ const Map = () => {
       location.lng = loc.coords.longitude;
     });
   }
+  if (selectedStations.length) {
+    mapStations = selectedStations;
+  } else {
+    mapStations = stations;
+  }
   return (
     <MapContainer
       className='metroline-map'
@@ -57,7 +64,7 @@ const Map = () => {
         url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
       />
 
-      {stations.map((station) => {
+      {mapStations.map((station) => {
         const line = station.properties.LINE.toLowerCase();
         return (
           <Marker
@@ -94,7 +101,6 @@ const Map = () => {
           weight={8}
           positions={[line.geometry.coordinates]}></Polyline>
       ))}
-      {/* <RoutingMachine /> */}
     </MapContainer>
   );
 };

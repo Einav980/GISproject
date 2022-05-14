@@ -10,25 +10,49 @@ import { useDispatch, useSelector } from 'react-redux';
 import {
   clearSelectedStations,
   setEndStation,
-  setRouteStartLocation,
   setStartStation,
   setStationSelected,
+  setRouteStartAddress,
+  setRouteEndAddress,
+  setRouteStartLocation,
+  setRouteEndLocation,
 } from '../../redux/reducers/mapReducer';
 
 const SearchRoute = () => {
-  const [startLocation, setStartLocation] = useState();
-  const [endLocation, setEndLocation] = useState();
-  const { stations } = useSelector((state) => state.map);
-
   const dispatch = useDispatch();
 
-  const { routeStartLocation } = useSelector((state) => state.map);
-  const { routeEndLocation } = useSelector((state) => state.map);
+  const {
+    routeStartLocation,
+    routeEndLocation,
+    stations,
+    routeStartAddress,
+    routeEndAddress,
+    routeStartStation,
+    routeEndStation,
+  } = useSelector((state) => state.map);
 
   const swapDirections = (event) => {
-    const temp = startLocation;
-    setStartLocation(endLocation);
-    setEndLocation(temp);
+    swapLocations();
+    swapStations();
+    swapAddresses();
+  };
+
+  const swapLocations = () => {
+    const temp = routeStartLocation;
+    dispatch(setRouteStartLocation(routeEndLocation));
+    dispatch(setRouteEndLocation(temp));
+  };
+
+  const swapStations = () => {
+    const temp = routeStartStation;
+    dispatch(setStartStation(routeEndStation));
+    dispatch(setEndStation(temp));
+  };
+
+  const swapAddresses = () => {
+    const temp = routeStartAddress;
+    dispatch(setRouteStartAddress(routeEndAddress));
+    dispatch(setRouteEndAddress(temp));
   };
 
   const handleSearch = () => {
@@ -44,7 +68,7 @@ const SearchRoute = () => {
     const { MASAD: endStationMasad } = nearestEnd.properties;
     const routeStations = searchRoute(startStationMasad, endStationMasad);
     console.log('Route', routeStations);
-    dispatch(clearSelectedStations);
+    dispatch(clearSelectedStations());
     dispatch(setStationSelected(routeStations));
   };
 

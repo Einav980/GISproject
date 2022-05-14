@@ -7,14 +7,19 @@ import PlacesAutocomplete, {
 } from 'react-places-autocomplete';
 import TextField from '@mui/material/TextField';
 import { useState } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import {
   setRouteStartLocation,
   setRouteEndLocation,
+  setRouteStartAddress,
+  setRouteEndAddress,
 } from '../../redux/reducers/mapReducer';
 
 const SearchInput = (props) => {
   const [address, setAddress] = useState('');
+  const { routeStartAddress, routeEndAddress } = useSelector(
+    (state) => state.map
+  );
   const dispatch = useDispatch();
   const placeHolderText = props.placeholder;
 
@@ -29,8 +34,10 @@ const SearchInput = (props) => {
 
       if (props.isStart) {
         dispatch(setRouteStartLocation({ lat: lat, lng: lng }));
+        dispatch(setRouteStartAddress(address));
       } else {
         dispatch(setRouteEndLocation({ lat: lat, lng: lng }));
+        dispatch(setRouteEndAddress(address));
       }
     }
   };
