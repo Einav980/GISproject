@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 .search-route-text-field {
   padding: 10px;
   display: flex;
   position: static;
   font-size: 28px !important;
+}
+
+.input-suggestion {
+  font-family: 'Varela', sans-serif;
+  border-bottom: 1px black dotted;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 10px;
 }

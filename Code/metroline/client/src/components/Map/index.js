@@ -11,17 +11,20 @@ import center from '../../constants';
 import { useEffect, useState } from 'react';
 import './index.css';
 import axios from 'axios';
-import { getLineIcon } from '../Icons';
+import { getLineIcon, getStationIcon } from '../Icons';
 import { colors } from '../../constants';
+import { useDispatch, useSelector } from 'react-redux';
+import { setStations } from '../../redux/reducers/mapReducer';
 
 const Map = () => {
-  const [stations, setStations] = useState([]);
   const [lines, setLines] = useState([]);
+  const { stations } = useSelector((state) => state.map);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     if (!stations.length) {
       axios.get(`http://localhost:5000/api/stations`).then((res) => {
-        setStations(res.data);
+        dispatch(setStations(res.data));
       });
     }
     if (!lines.length) {
@@ -58,6 +61,7 @@ const Map = () => {
         const line = station.properties.LINE.toLowerCase();
         return (
           <Marker
+            key={station.properties.MASAD}
             position={[
               station.geometry.coordinates[1],
               station.geometry.coordinates[0],
@@ -67,7 +71,7 @@ const Map = () => {
                 console.log(e.target);
               },
             }}
-            icon={getLineIcon(line)}>
+            icon={getStationIcon(station)}>
             <Popup>
               <p id='popup-style'>
                 Line: {station.properties.LINE}
@@ -75,6 +79,8 @@ const Map = () => {
                 {station.properties.NAME}
                 <br />
                 {station.properties.NAMEENG}
+                <br />
+                {station.properties.MASAD}
               </p>
             </Popup>
           </Marker>
@@ -88,12 +94,7 @@ const Map = () => {
           weight={8}
           positions={[line.geometry.coordinates]}></Polyline>
       ))}
-      {lines.map((line) => {
-        <Circle
-          center={latLng(0, 0)}
-          radius={300}
-          fillColor={'#000000'}></Circle>;
-      })}
+      {/* <RoutingMachine /> */}
     </MapContainer>
   );
 };

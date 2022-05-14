@@ -20,12 +20,27 @@ const m3Icon = new L.Icon({
   shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
 });
 
+const defaultIcon = new L.Icon({
+  iconRetinaUrl: require('../../assets/marker/matroline-icon-station-x2-selected.png'),
+  iconUrl: require('../../assets/marker/matroline-icon-station-selected.png'),
+  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+});
+
 const icons = {
   m1: m1Icon,
   m2: m2Icon,
   m3: m3Icon,
+  default: defaultIcon,
 };
 
 export const getLineIcon = (line) => {
   return icons[line];
+};
+
+export const getStationIcon = (station) => {
+  const line = station.properties.LINE.toLowerCase();
+  if (station.selected) {
+    return icons[line];
+  }
+  return icons['default'];
 };

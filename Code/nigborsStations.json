@@ -1,5 +1,5 @@
 {
-  "stationsList": [
+  "stationList": [
     {
       "station": "M1N-1",
       "neighbors": ["M1N-2"],

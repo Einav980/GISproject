@@ -7,13 +7,32 @@ import PlacesAutocomplete, {
 } from 'react-places-autocomplete';
 import TextField from '@mui/material/TextField';
 import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import {
+  setRouteStartLocation,
+  setRouteEndLocation,
+} from '../../redux/reducers/mapReducer';
 
 const SearchInput = (props) => {
   const [address, setAddress] = useState('');
+  const dispatch = useDispatch();
   const placeHolderText = props.placeholder;
+
   const handleSelect = async (value) => {
-    const result = await geocodeByAddress(value);
-    console.log(result);
+    var lat = 0;
+    var lng = 0;
+    if (value) {
+      await geocodeByAddress(value).then((response) => {
+        lat = response[0].geometry.location.lat();
+        lng = response[0].geometry.location.lng();
+      });
+
+      if (props.isStart) {
+        dispatch(setRouteStartLocation({ lat: lat, lng: lng }));
+      } else {
+        dispatch(setRouteEndLocation({ lat: lat, lng: lng }));
+      }
+    }
   };
   return (
     <div>
@@ -40,13 +59,16 @@ const SearchInput = (props) => {
             />
             {loading ? <div> loading...</div> : null}
             {suggestions.map((suggestion) => {
-              const style = {
-                backgroundColor: suggestion.active
-                  ? 'rgba(8,255,200,1)'
-                  : 'white',
-              };
+              const style = suggestion.active
+                ? {
+                    backgroundColor: 'rgba(8,255,200,1)',
+                    cursor: 'pointer',
+                  }
+                : { backgroundColor: 'white', cursor: 'pointer' };
               return (
-                <div {...getSuggestionItemProps(suggestion, { style })}>
+                <div
+                  className='input-suggestion'
+                  {...getSuggestionItemProps(suggestion, { style })}>
                   {suggestion.description}
                 </div>
               );
