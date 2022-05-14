@@ -13,8 +13,12 @@ import './index.css';
 import axios from 'axios';
 import { getLineIcon, getStationIcon } from '../Icons';
 import { colors } from '../../constants';
+<<<<<<< Updated upstream
 import { useDispatch, useSelector } from 'react-redux';
 import { setStations } from '../../redux/reducers/mapReducer';
+=======
+import { popupContent, popupHead, popupText, lineText, lineColor, getLineColor } from "./popupStyles";
+>>>>>>> Stashed changes
 
 const Map = () => {
   const [lines, setLines] = useState([]);
@@ -79,6 +83,7 @@ const Map = () => {
             }}
             icon={getStationIcon(station)}>
             <Popup>
+<<<<<<< Updated upstream
               <p id='popup-style'>
                 Line: {station.properties.LINE}
                 <br />
@@ -88,6 +93,24 @@ const Map = () => {
                 <br />
                 {station.properties.MASAD}
               </p>
+=======
+              <div style={popupContent}>
+                <img
+                  src=""
+                  width="150"
+                  height="150"
+                />
+                <div className="m-2" style={popupHead}></div>
+                <div style={{ backgroundColor: colors[station.properties.LINE] }}>
+                  <span style={popupText} >
+                    {station.properties.NAME}
+                  </span>
+                  <div className="m-2" style={lineText}>
+                    {station.properties.LINE} :קו
+                  </div>
+                </div>
+              </div>
+>>>>>>> Stashed changes
             </Popup>
           </Marker>
         );
