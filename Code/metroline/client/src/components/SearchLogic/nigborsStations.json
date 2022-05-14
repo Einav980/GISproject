@@ -1,0 +1,1007 @@
+{
+    "StationsList": [
+        {
+            "stations": "M1N-1",
+            "nighdors": [
+                "M1N-2"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-2",
+            "nighdors": [
+                "M1N-1",
+                "M1N-3"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-3",
+            "nighdors": [
+                "M1N-2",
+                "M1N-4"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-4",
+            "nighdors": [
+                "M1N-3",
+                "M1N-5"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-5",
+            "nighdors": [
+                "M1N-4",
+                "M1N-6"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-6",
+            "nighdors": [
+                "M1N-5",
+                "M1N-7"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-7",
+            "nighdors": [
+                "M1N-6",
+                "M1N-8"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-8",
+            "nighdors": [
+                "M1N-7",
+                "M1N-9"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-9",
+            "nighdors": [
+                "M1N-8",
+                "M1N-20",
+                "M1N-19"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-10",
+            "nighdors": [
+                "M1N-11"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-11",
+            "nighdors": [
+                "M1N-10",
+                "M1N-12"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-12",
+            "nighdors": [
+                "M1N-11",
+                "M1N-13"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-13",
+            "nighdors": [
+                "M1N-12",
+                "M1N-14"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-14",
+            "nighdors": [
+                "M1N-13",
+                "M1N-15"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-15",
+            "nighdors": [
+                "M1N-14",
+                "M1N-16"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-16",
+            "nighdors": [
+                "M1N-15",
+                "M1N-17"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-17",
+            "nighdors": [
+                "M1N-16",
+                "M1N-18"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-18",
+            "nighdors": [
+                "M1N-17",
+                "M1N-19"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-19",
+            "nighdors": [
+                "M1N-18",
+                "M1N-9"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-20",
+            "nighdors": [
+                "M1N-9",
+                "M1N-21"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-21",
+            "nighdors": [
+                "M1N-20",
+                "M1N-22",
+                "M3-21"
+            ],
+            "isTransferStation": true,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-22",
+            "nighdors": [
+                "M1N-21",
+                "M1N-23"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-23",
+            "nighdors": [
+                "M1N-22",
+                "M1N-24"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-24",
+            "nighdors": [
+                "M1N-23",
+                "M1N-25"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-25",
+            "nighdors": [
+                "M1N-24",
+                "M1N-26"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-26",
+            "nighdors": [
+                "M1N-25",
+                "M1N-27"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-27",
+            "nighdors": [
+                "M1N-26",
+                "M1N-28"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-28",
+            "nighdors": [
+                "M1N-27",
+                "M1N-29",
+                "M2-8"
+            ],
+            "isTransferStation": true,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-29",
+            "nighdors": [
+                "M1N-28",
+                "M1N-30"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-30",
+            "nighdors": [
+                "M1N-29",
+                "M1N-31"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1N-31",
+            "nighdors": [
+                "M1N-30",
+                "M1S-1"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-1",
+            "nighdors": [
+                "M1N-31",
+                "M1S-2"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-2",
+            "nighdors": [
+                "M1S-1",
+                "M1S-3"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-3",
+            "nighdors": [
+                "M1S-2",
+                "M1S-4"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-4",
+            "nighdors": [
+                "M1S-3",
+                "M1S-5",
+                "M3-3"
+            ],
+            "isTransferStation": true,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-5",
+            "nighdors": [
+                "M1S-4",
+                "M1S-6"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-6",
+            "nighdors": [
+                "M1S-5",
+                "M1S-7",
+                "M1S-17"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-7",
+            "nighdors": [
+                "M1S-6",
+                "M1S-8"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-8",
+            "nighdors": [
+                "M1S-7",
+                "M1S-9"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-9",
+            "nighdors": [
+                "M1S-8",
+                "M1S-10"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-10",
+            "nighdors": [
+                "M1S-9",
+                "M1S-11"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-11",
+            "nighdors": [
+                "M1S-10",
+                "M1S-12"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-12",
+            "nighdors": [
+                "M1S-11",
+                "M1S-13"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-13",
+            "nighdors": [
+                "M1S-12",
+                "M1S-14"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-14",
+            "nighdors": [
+                "M1S-13",
+                "M1S-15"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-15",
+            "nighdors": [
+                "M1S-14",
+                "M1S-16"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-16",
+            "nighdors": [
+                "M1S-15"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-17",
+            "nighdors": [
+                "M1S-6",
+                "M1S-18"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-18",
+            "nighdors": [
+                "M1S-17",
+                "M1S-19"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-19",
+            "nighdors": [
+                "M1S-18",
+                "M1S-20"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-20",
+            "nighdors": [
+                "M1S-19",
+                "M1S-21"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-21",
+            "nighdors": [
+                "M1S-20",
+                "M1S-22"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-22",
+            "nighdors": [
+                "M1S-21",
+                "M1S-23"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-23",
+            "nighdors": [
+                "M1S-22",
+                "M1S-24"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-24",
+            "nighdors": [
+                "M1S-23",
+                "M1S-25"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-25",
+            "nighdors": [
+                "M1S-24",
+                "M1S-26"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-26",
+            "nighdors": [
+                "M1S-25",
+                "M1S-27"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-27",
+            "nighdors": [
+                "M1S-26",
+                "M1S-28"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-28",
+            "nighdors": [
+                "M1S-27",
+                "M1S-29"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-29",
+            "nighdors": [
+                "M1S-28",
+                "M1S-30"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-30",
+            "nighdors": [
+                "M1S-29",
+                "M1S-31"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M1S-31",
+            "nighdors": [
+                "M1S-30"
+            ],
+            "isTransferStation": false,
+            "metro": "M1"
+        },
+        {
+            "stations": "M2-1",
+            "nighdors": [
+                "M2-2"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-2",
+            "nighdors": [
+                "M2-1",
+                "M2-3"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-3",
+            "nighdors": [
+                "M2-2",
+                "M2-4"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-4",
+            "nighdors": [
+                "M2-3",
+                "M2-5"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-5",
+            "nighdors": [
+                "M2-4",
+                "M2-6"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-6",
+            "nighdors": [
+                "M2-5",
+                "M2-7"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-7",
+            "nighdors": [
+                "M2-6",
+                "M2-8"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-8",
+            "nighdors": [
+                "M2-7",
+                "M2-9",
+                "M1N-28"
+            ],
+            "isTransferStation": true,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-9",
+            "nighdors": [
+                "M2-8",
+                "M2-10"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-10",
+            "nighdors": [
+                "M2-9",
+                "M2-11"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-11",
+            "nighdors": [
+                "M2-10",
+                "M2-12A",
+                "M2-11B"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-11B",
+            "nighdors": [
+                "M2-11",
+                "M2-12B"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-12B",
+            "nighdors": [
+                "M2-11B",
+                "M2-13B"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-12A",
+            "nighdors": [
+                "M2-11",
+                "M2-13A"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-13A",
+            "nighdors": [
+                "M2-12A",
+                "M2-14"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-13B",
+            "nighdors": [
+                "M2-12B",
+                "M2-14"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-14",
+            "nighdors": [
+                "M2-13A",
+                "M2-13B",
+                "M2-15",
+                "M3-14"
+            ],
+            "isTransferStation": true,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-15",
+            "nighdors": [
+                "M2-14",
+                "M2-16"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-16",
+            "nighdors": [
+                "M2-15",
+                "M2-17"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-17",
+            "nighdors": [
+                "M2-16",
+                "M2-18"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-18",
+            "nighdors": [
+                "M2-17",
+                "M2-19"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-19",
+            "nighdors": [
+                "M2-18",
+                "M2-20"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-20",
+            "nighdors": [
+                "M2-19",
+                "M2-21"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M2-21",
+            "nighdors": [
+                "M2-20"
+            ],
+            "isTransferStation": false,
+            "metro": "M2"
+        },
+        {
+            "stations": "M3-1",
+            "nighdors": [
+                "M3-2"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-2",
+            "nighdors": [
+                "M3-1",
+                "M3-3"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-3",
+            "nighdors": [
+                "M3-2",
+                "M3-4",
+                "M1S-4"
+            ],
+            "isTransferStation": true,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-4",
+            "nighdors": [
+                "M3-3",
+                "M3-5"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-5",
+            "nighdors": [
+                "M3-4",
+                "M3-6"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-6",
+            "nighdors": [
+                "M3-5",
+                "M3-7"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-7",
+            "nighdors": [
+                "M3-6",
+                "M3-25"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-25",
+            "nighdors": [
+                "M3-7",
+                "M3-8"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-8",
+            "nighdors": [
+                "M3-25",
+                "M3-9",
+                "M3-10"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-9",
+            "nighdors": [
+                "M3-8",
+                "M3-11"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-10",
+            "nighdors": [
+                "M3-8"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-11",
+            "nighdors": [
+                "M3-9",
+                "M3-12"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-12",
+            "nighdors": [
+                "M3-11",
+                "M3-13"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-13",
+            "nighdors": [
+                "M3-12",
+                "M3-14"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-14",
+            "nighdors": [
+                "M3-13",
+                "M3-15",
+                "M2-14"
+            ],
+            "isTransferStation": true,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-15",
+            "nighdors": [
+                "M3-14",
+                "M3-16"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-16",
+            "nighdors": [
+                "M3-15",
+                "M3-17"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-17",
+            "nighdors": [
+                "M3-16",
+                "M3-18"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-18",
+            "nighdors": [
+                "M3-17",
+                "M3-19"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-19",
+            "nighdors": [
+                "M3-18",
+                "M3-20"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-20",
+            "nighdors": [
+                "M3-19",
+                "M3-21"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-21",
+            "nighdors": [
+                "M3-20",
+                "M3-22",
+                "M1N-21"
+            ],
+            "isTransferStation": true,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-22",
+            "nighdors": [
+                "M3-21",
+                "M3-23"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-23",
+            "nighdors": [
+                "M3-22",
+                "M3-24"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        },
+        {
+            "stations": "M3-24",
+            "nighdors": [
+                "M3-23"
+            ],
+            "isTransferStation": false,
+            "metro": "M3"
+        }
+    ]
+}

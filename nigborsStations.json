@@ -1,0 +1,1001 @@
+[
+ {
+  "metro": "M1",
+  "stations": "M1N-1",
+  "nighbor 1": "M1N-2",
+  "nighbor 2": null,
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-2",
+  "nighbor 1": "M1N-1",
+  "nighbor 2": " M1N-3",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-3",
+  "nighbor 1": "M1N-2 ",
+  "nighbor 2": " M1N-4",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-4",
+  "nighbor 1": "M1N-3",
+  "nighbor 2": " M1N-5",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-5",
+  "nighbor 1": "M1N-4",
+  "nighbor 2": " M1N-6",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-6",
+  "nighbor 1": "M1N-5",
+  "nighbor 2": " M1N-7",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-7",
+  "nighbor 1": "M1N-6",
+  "nighbor 2": " M1N-8",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-8",
+  "nighbor 1": "M1N-7",
+  "nighbor 2": " M1N-9",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-9",
+  "nighbor 1": "M1N-8",
+  "nighbor 2": " M1N-20",
+  "nighbor 3": " M1N-19",
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-10",
+  "nighbor 1": "M1N-11",
+  "nighbor 2": null,
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-11",
+  "nighbor 1": "M1N-10",
+  "nighbor 2": " M1N-12",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-12",
+  "nighbor 1": "M1N-11",
+  "nighbor 2": " M1N-13",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-13",
+  "nighbor 1": "M1N-12",
+  "nighbor 2": " M1N-14",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-14",
+  "nighbor 1": "M1N-13",
+  "nighbor 2": " M1N-15",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-15",
+  "nighbor 1": "M1N-14",
+  "nighbor 2": " M1N-16",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-16",
+  "nighbor 1": "M1N-15",
+  "nighbor 2": " M1N-17",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-17",
+  "nighbor 1": "M1N-16",
+  "nighbor 2": " M1N-18",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-18",
+  "nighbor 1": "M1N-17",
+  "nighbor 2": " M1N-19",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-19",
+  "nighbor 1": "M1N-18",
+  "nighbor 2": "M1N-9",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-20",
+  "nighbor 1": "M1N-9",
+  "nighbor 2": " M1N-21",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-21",
+  "nighbor 1": "M1N-20",
+  "nighbor 2": " M1N-22",
+  "nighbor 3": "M3-21",
+  "nighbor 4": null,
+  "isTransferStation": true
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-22",
+  "nighbor 1": "M1N-21",
+  "nighbor 2": " M1N-23",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-23",
+  "nighbor 1": "M1N-22",
+  "nighbor 2": " M1N-24",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-24",
+  "nighbor 1": "M1N-23",
+  "nighbor 2": " M1N-25",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-25",
+  "nighbor 1": "M1N-24",
+  "nighbor 2": " M1N-26",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-26",
+  "nighbor 1": "M1N-25",
+  "nighbor 2": " M1N-27",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-27",
+  "nighbor 1": "M1N-26",
+  "nighbor 2": " M1N-28",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-28",
+  "nighbor 1": "M1N-27",
+  "nighbor 2": " M1N-29",
+  "nighbor 3": "M2-8",
+  "nighbor 4": null,
+  "isTransferStation": true
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-29",
+  "nighbor 1": "M1N-28",
+  "nighbor 2": " M1N-30",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-30",
+  "nighbor 1": "M1N-29",
+  "nighbor 2": " M1N-31",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1N-31",
+  "nighbor 1": "M1N-30",
+  "nighbor 2": "M1S-1",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-1",
+  "nighbor 1": "M1N-31",
+  "nighbor 2": "M1S-2",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-2",
+  "nighbor 1": "M1S-1",
+  "nighbor 2": "M1S-3",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-3",
+  "nighbor 1": "M1S-2",
+  "nighbor 2": "M1S-4",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-4",
+  "nighbor 1": "M1S-3",
+  "nighbor 2": "M1S-5",
+  "nighbor 3": "M3-3",
+  "nighbor 4": null,
+  "isTransferStation": true
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-5",
+  "nighbor 1": "M1S-4",
+  "nighbor 2": "M1S-6",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-6",
+  "nighbor 1": "M1S-5",
+  "nighbor 2": "M1S-7",
+  "nighbor 3": "M1S-17",
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-7",
+  "nighbor 1": "M1S-6",
+  "nighbor 2": "M1S-8",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-8",
+  "nighbor 1": "M1S-7",
+  "nighbor 2": "M1S-9",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-9",
+  "nighbor 1": "M1S-8",
+  "nighbor 2": "M1S-10",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-10",
+  "nighbor 1": "M1S-9",
+  "nighbor 2": "M1S-11",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-11",
+  "nighbor 1": "M1S-10",
+  "nighbor 2": "M1S-12",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-12",
+  "nighbor 1": "M1S-11",
+  "nighbor 2": "M1S-13",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-13",
+  "nighbor 1": "M1S-12",
+  "nighbor 2": "M1S-14",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-14",
+  "nighbor 1": "M1S-13",
+  "nighbor 2": "M1S-15",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-15",
+  "nighbor 1": "M1S-14",
+  "nighbor 2": "M1S-16",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-16",
+  "nighbor 1": "M1S-15",
+  "nighbor 2": null,
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-17",
+  "nighbor 1": "M1S-6",
+  "nighbor 2": "M1S-18",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-18",
+  "nighbor 1": "M1S-17",
+  "nighbor 2": "M1S-19",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-19",
+  "nighbor 1": "M1S-18",
+  "nighbor 2": "M1S-20",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-20",
+  "nighbor 1": "M1S-19",
+  "nighbor 2": "M1S-21",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-21",
+  "nighbor 1": "M1S-20",
+  "nighbor 2": "M1S-22",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-22",
+  "nighbor 1": "M1S-21",
+  "nighbor 2": "M1S-23",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-23",
+  "nighbor 1": "M1S-22",
+  "nighbor 2": "M1S-24",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-24",
+  "nighbor 1": "M1S-23",
+  "nighbor 2": "M1S-25",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-25",
+  "nighbor 1": "M1S-24",
+  "nighbor 2": "M1S-26",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-26",
+  "nighbor 1": "M1S-25",
+  "nighbor 2": "M1S-27",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-27",
+  "nighbor 1": "M1S-26",
+  "nighbor 2": "M1S-28",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-28",
+  "nighbor 1": "M1S-27",
+  "nighbor 2": "M1S-29",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-29",
+  "nighbor 1": "M1S-28",
+  "nighbor 2": "M1S-30",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-30",
+  "nighbor 1": "M1S-29",
+  "nighbor 2": "M1S-31",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M1",
+  "stations": "M1S-31",
+  "nighbor 1": "M1S-30",
+  "nighbor 2": null,
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-1",
+  "nighbor 1": "M2-2",
+  "nighbor 2": null,
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-2",
+  "nighbor 1": "M2-1",
+  "nighbor 2": "M2-3",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-3",
+  "nighbor 1": "M2-2",
+  "nighbor 2": "M2-4",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-4",
+  "nighbor 1": "M2-3",
+  "nighbor 2": "M2-5",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-5",
+  "nighbor 1": "M2-4",
+  "nighbor 2": "M2-6",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-6",
+  "nighbor 1": "M2-5",
+  "nighbor 2": "M2-7",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-7",
+  "nighbor 1": "M2-6",
+  "nighbor 2": "M2-8",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-8",
+  "nighbor 1": "M2-7",
+  "nighbor 2": "M2-9",
+  "nighbor 3": "M1N-28",
+  "nighbor 4": null,
+  "isTransferStation": true
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-9",
+  "nighbor 1": "M2-8",
+  "nighbor 2": "M2-10",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-10",
+  "nighbor 1": "M2-9",
+  "nighbor 2": "M2-11",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-11",
+  "nighbor 1": "M2-10",
+  "nighbor 2": "M2-12A",
+  "nighbor 3": "M2-11B",
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-11B",
+  "nighbor 1": "M2-11",
+  "nighbor 2": "M2-12B",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-12B",
+  "nighbor 1": "M2-11B",
+  "nighbor 2": "M2-13B",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-12A",
+  "nighbor 1": "M2-11",
+  "nighbor 2": "M2-13A",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-13A",
+  "nighbor 1": "M2-12A",
+  "nighbor 2": "M2-14",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-13B",
+  "nighbor 1": "M2-12B",
+  "nighbor 2": "M2-14",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-14",
+  "nighbor 1": "M2-13A",
+  "nighbor 2": "M2-13B",
+  "nighbor 3": "M2-15",
+  "nighbor 4": "M3-14",
+  "isTransferStation": true
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-15",
+  "nighbor 1": "M2-14",
+  "nighbor 2": "M2-16",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-16",
+  "nighbor 1": "M2-15",
+  "nighbor 2": "M2-17",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-17",
+  "nighbor 1": "M2-16",
+  "nighbor 2": "M2-18",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-18",
+  "nighbor 1": "M2-17",
+  "nighbor 2": "M2-19",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-19",
+  "nighbor 1": "M2-18",
+  "nighbor 2": "M2-20",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-20",
+  "nighbor 1": "M2-19",
+  "nighbor 2": "M2-21",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M2",
+  "stations": "M2-21",
+  "nighbor 1": "M2-20",
+  "nighbor 2": null,
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-1",
+  "nighbor 1": "M3-2",
+  "nighbor 2": null,
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-2",
+  "nighbor 1": "M3-1",
+  "nighbor 2": "M3-3",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-3",
+  "nighbor 1": "M3-2",
+  "nighbor 2": "M3-4",
+  "nighbor 3": "M1S-4",
+  "nighbor 4": null,
+  "isTransferStation": true
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-4",
+  "nighbor 1": "M3-3",
+  "nighbor 2": "M3-5",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-5",
+  "nighbor 1": "M3-4",
+  "nighbor 2": "M3-6",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-6",
+  "nighbor 1": "M3-5",
+  "nighbor 2": "M3-7",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-7",
+  "nighbor 1": "M3-6",
+  "nighbor 2": "ARIEL SHARON PARK",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "ARIEL SHARON PARK",
+  "nighbor 1": "M3-7",
+  "nighbor 2": "M3-8",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-8",
+  "nighbor 1": "ARIEL SHARON PARK",
+  "nighbor 2": "M3-9",
+  "nighbor 3": "M3-10",
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-9",
+  "nighbor 1": "M3-8",
+  "nighbor 2": "M3-11",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-10",
+  "nighbor 1": "M3-8",
+  "nighbor 2": null,
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-11",
+  "nighbor 1": "M3-9",
+  "nighbor 2": "M3-12",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-12",
+  "nighbor 1": "M3-11",
+  "nighbor 2": "M3-13",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-13",
+  "nighbor 1": "M3-12",
+  "nighbor 2": "M3-14",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-14",
+  "nighbor 1": "M3-13",
+  "nighbor 2": "M3-15",
+  "nighbor 3": "M2-14",
+  "nighbor 4": null,
+  "isTransferStation": true
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-15",
+  "nighbor 1": "M3-14",
+  "nighbor 2": "M3-16",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-16",
+  "nighbor 1": "M3-15",
+  "nighbor 2": "M3-17",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-17",
+  "nighbor 1": "M3-16",
+  "nighbor 2": "M3-18",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-18",
+  "nighbor 1": "M3-17",
+  "nighbor 2": "M3-19",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-19",
+  "nighbor 1": "M3-18",
+  "nighbor 2": "M3-20",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-20",
+  "nighbor 1": "M3-19",
+  "nighbor 2": "M3-21",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-21",
+  "nighbor 1": "M3-20",
+  "nighbor 2": "M3-22",
+  "nighbor 3": "M1N-21",
+  "nighbor 4": null,
+  "isTransferStation": true
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-22",
+  "nighbor 1": "M3-21",
+  "nighbor 2": "M3-23",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-23",
+  "nighbor 1": "M3-22",
+  "nighbor 2": "M3-24",
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ },
+ {
+  "metro": "M3",
+  "stations": "M3-24",
+  "nighbor 1": "M3-23",
+  "nighbor 2": null,
+  "nighbor 3": null,
+  "nighbor 4": null,
+  "isTransferStation": null
+ }
+]
