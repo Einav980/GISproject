@@ -75,7 +75,6 @@ const Map = () => {
             ]}
             eventHandlers={{
               click: (e) => {
-                console.log(e.target);
               },
             }}
             icon={getStationIcon(station)}>

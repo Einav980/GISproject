@@ -67,7 +67,6 @@ const SearchRoute = () => {
     const { MASAD: startStationMasad } = nearestStart.properties;
     const { MASAD: endStationMasad } = nearestEnd.properties;
     const routeStations = searchRoute(startStationMasad, endStationMasad);
-    console.log('Route', routeStations);
     dispatch(clearSelectedStations());
     dispatch(setStationSelected(routeStations));
   };
