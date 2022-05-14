@@ -11,14 +11,19 @@ import center from '../../constants';
 import { useEffect, useState } from 'react';
 import './index.css';
 import axios from 'axios';
-import { getLineIcon, getStationIcon, getUserIcon } from '../Icons';
+import { getStationImage, getStationIcon, getUserIcon } from '../Icons';
 import { colors } from '../../constants';
-
 import { useDispatch, useSelector } from 'react-redux';
 import { setStations } from '../../redux/reducers/mapReducer';
 
-import { popupContent, popupHead, popupText, lineText, lineColor, getLineColor } from "./popupStyles";
-
+import {
+  popupContent,
+  popupHead,
+  popupText,
+  lineText,
+  lineColor,
+  getLineColor,
+} from './popupStyles';
 
 const Map = () => {
   const [lines, setLines] = useState([]);
@@ -68,10 +73,7 @@ const Map = () => {
         url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
       />
       <Marker
-        position={[
-          options.center.lat,
-          options.center.lng,
-        ]}
+        position={[options.center.lat, options.center.lng]}
         icon={getUserIcon()}>
         <Popup>
           <p id='popup-style'>
@@ -90,23 +92,22 @@ const Map = () => {
               station.geometry.coordinates[0],
             ]}
             eventHandlers={{
-              click: (e) => {
-              },
+              click: (e) => {},
             }}
             icon={getStationIcon(station)}>
             <Popup>
               <div style={popupContent}>
                 <img
-                  src=""
-                  width="150"
-                  height="150"
+                  src={getStationImage(line)}
+                  width='150'
+                  height='150'
+                  alt='station'
                 />
-                <div className="m-2" style={popupHead}></div>
-                <div style={{ backgroundColor: colors[station.properties.LINE] }}>
-                  <span style={popupText} >
-                    {station.properties.NAME}
-                  </span>
-                  <div className="m-2" style={lineText}>
+                <div className='m-2' style={popupHead}></div>
+                <div
+                  style={{ backgroundColor: colors[station.properties.LINE] }}>
+                  <span style={popupText}>{station.properties.NAME}</span>
+                  <div className='m-2' style={lineText}>
                     {station.properties.LINE} :קו
                   </div>
                 </div>

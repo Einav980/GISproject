@@ -26,6 +26,16 @@ const defaultIcon = new L.Icon({
   shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
 });
 
+const m1StationLogo = require('../../assets/marker/metroline-station-image-m1.png');
+const m2StationLogo = require('../../assets/marker/metroline-station-image-m2.png');
+const m3StationLogo = require('../../assets/marker/metroline-station-image-m3.png');
+
+const stationImages = {
+  m1: m1StationLogo,
+  m2: m2StationLogo,
+  m3: m3StationLogo,
+};
+
 const icons = {
   m1: m1Icon,
   m2: m2Icon,
@@ -37,8 +47,12 @@ export const getLineIcon = (line) => {
   return icons[line];
 };
 
-export const getUserIcon= () => {
-  return icons["default"];
+export const getUserIcon = () => {
+  return icons['default'];
+};
+
+export const getStationImage = (line) => {
+  return stationImages[line];
 };
 
 export const getStationIcon = (station) => {
