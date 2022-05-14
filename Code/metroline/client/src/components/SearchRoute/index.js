@@ -1,7 +1,7 @@
 import './index.css';
 import strings from '../../constants/strings';
 import { Grid, Typography, IconButton, Button } from '@mui/material';
-import { Search, SwapVert } from '@mui/icons-material';
+import { CleanHands, Clear, ClearAll, Search, SwapVert } from '@mui/icons-material';
 import SearchInput from '../SearchInput';
 import { styled } from '@mui/material/styles';
 import { useState } from 'react';
@@ -41,6 +41,10 @@ const SearchRoute = () => {
     const temp = routeStartLocation;
     dispatch(setRouteStartLocation(routeEndLocation));
     dispatch(setRouteEndLocation(temp));
+  };
+
+  const clearSearch = () => {
+    dispatch(clearSelectedStations());
   };
 
   const swapStations = () => {
@@ -153,7 +157,14 @@ const SearchRoute = () => {
             </IconButton>
           </Grid>
         </Grid>
-        <Grid item xs={3} container justifyContent='center' alignItems='center'>
+        <Grid item xs={3} container justifyContent='center' alignItems='center' gap={'30px'} >
+        <Button
+            variant='contained'
+            startIcon={<Clear />}
+            dir='ltr'
+            onClick={clearSearch}>
+            נקה חיפוש
+          </Button>
           <Button
             variant='contained'
             startIcon={<Search />}

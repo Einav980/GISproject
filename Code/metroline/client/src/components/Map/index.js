@@ -1,4 +1,4 @@
-import L, { latLng } from 'leaflet';
+import L, { latLng, map } from 'leaflet';
 import {
   MapContainer,
   TileLayer,
@@ -11,7 +11,7 @@ import center from '../../constants';
 import { useEffect, useState } from 'react';
 import './index.css';
 import axios from 'axios';
-import { getLineIcon, getStationIcon } from '../Icons';
+import { getLineIcon, getStationIcon, getUserIcon } from '../Icons';
 import { colors } from '../../constants';
 
 import { useDispatch, useSelector } from 'react-redux';
@@ -67,7 +67,19 @@ const Map = () => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
       />
-
+      <Marker
+        position={[
+          options.center.lat,
+          options.center.lng,
+        ]}
+        icon={getUserIcon()}>
+        <Popup>
+          <p id='popup-style'>
+            המיקום שלי
+            <br />
+          </p>
+        </Popup>
+      </Marker>
       {mapStations.map((station) => {
         const line = station.properties.LINE.toLowerCase();
         return (
