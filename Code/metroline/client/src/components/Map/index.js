@@ -6,15 +6,18 @@ import {
   Popup,
   Polyline,
   Circle,
+  ImageOverlay,
 } from 'react-leaflet';
 import center from '../../constants';
 import { useEffect, useState } from 'react';
 import './index.css';
 import axios from 'axios';
-import { getStationImage, getStationIcon, getUserIcon } from '../Icons';
+import { getStationImage, getStationIcon, getUserIcon, getImgLogo } from '../Icons';
 import { colors } from '../../constants';
 import { useDispatch, useSelector } from 'react-redux';
 import { setStations } from '../../redux/reducers/mapReducer';
+import ImageLogo from '../ImageLogo';
+
 
 import {
   popupContent,
@@ -24,6 +27,7 @@ import {
   lineColor,
   getLineColor,
 } from './popupStyles';
+import { render } from 'react-dom';
 
 const Map = () => {
   const [lines, setLines] = useState([]);
@@ -61,17 +65,22 @@ const Map = () => {
   } else {
     mapStations = stations;
   }
+
+
   return (
     <MapContainer
       className='metroline-map'
       center={options.center}
       zoom={13}
-      scrollWheelZoom={true}
+      scrollWheel={true}
       style={{ width: '100vw', height: '100vh' }}>
+      
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+        img={ImageLogo}      
       />
+
       <Marker
         position={[options.center.lat, options.center.lng]}
         icon={getUserIcon()}>
@@ -82,6 +91,7 @@ const Map = () => {
           </p>
         </Popup>
       </Marker>
+
       {mapStations.map((station) => {
         const line = station.properties.LINE.toLowerCase();
         return (
@@ -92,7 +102,7 @@ const Map = () => {
               station.geometry.coordinates[0],
             ]}
             eventHandlers={{
-              click: (e) => {},
+              click: (e) => { },
             }}
             icon={getStationIcon(station)}>
             <Popup>
@@ -114,6 +124,7 @@ const Map = () => {
               </div>
             </Popup>
           </Marker>
+
         );
       })}
 
@@ -123,9 +134,12 @@ const Map = () => {
           color={colors[line.properties.NAME]}
           weight={8}
           positions={[line.geometry.coordinates]}></Polyline>
-      ))}
-    </MapContainer>
+      ))
+      }
+      
+    </MapContainer >
   );
 };
+
 
 export default Map;
