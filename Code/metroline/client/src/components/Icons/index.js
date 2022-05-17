@@ -27,9 +27,9 @@ const defaultIcon = new L.Icon({
 });
 
 
-const m1StationLogo = require('../../assets/marker/metroline-station-image-m1.png');
-const m2StationLogo = require('../../assets/marker/metroline-station-image-m2.png');
-const m3StationLogo = require('../../assets/marker/metroline-station-image-m3.png');
+const m1StationLogo = require('../../assets/marker/Metroline-Logo-m1.png');
+const m2StationLogo = require('../../assets/marker/Metroline-Logo-m2.png');
+const m3StationLogo = require('../../assets/marker/Metroline-Logo-m3.png');
 
 const stationImages = {
   m1: m1StationLogo,

@@ -6,7 +6,6 @@ import {
   Popup,
   Polyline,
   Circle,
-  ImageOverlay,
 } from 'react-leaflet';
 import center from '../../constants';
 import { useEffect, useState } from 'react';
@@ -19,13 +18,11 @@ import { setStations } from '../../redux/reducers/mapReducer';
 import ImageLogo from '../ImageLogo';
 
 
+
 import {
   popupContent,
-  popupHead,
   popupText,
-  lineText,
-  lineColor,
-  getLineColor,
+  popupImg,
 } from './popupStyles';
 import { render } from 'react-dom';
 
@@ -66,7 +63,6 @@ const Map = () => {
     mapStations = stations;
   }
 
-
   return (
     <MapContainer
       className='metroline-map'
@@ -74,11 +70,11 @@ const Map = () => {
       zoom={13}
       scrollWheel={true}
       style={{ width: '100vw', height: '100vh' }}>
-      
+
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-        img={ImageLogo}      
+        img={ImageLogo}
       />
 
       <Marker
@@ -107,24 +103,33 @@ const Map = () => {
             icon={getStationIcon(station)}>
             <Popup>
               <div style={popupContent}>
-                <img
-                  src={getStationImage(line)}
-                  width='150'
-                  height='150'
-                  alt='station'
-                />
-                <div className='m-2' style={popupHead}></div>
+                <div style={popupImg}>
+                  <img
+                    src={getStationImage(line)}
+                    width='120'
+                    height='120'
+                    alt='station'
+                  />
+                </div>
                 <div
-                  style={{ backgroundColor: colors[station.properties.LINE] }}>
-                  <span style={popupText}>{station.properties.NAME}</span>
-                  <div className='m-2' style={lineText}>
-                    {station.properties.LINE} :קו
-                  </div>
+                  style={{
+                    backgroundColor: colors[station.properties.LINE],
+                    position: 'fixed',
+                    left: '0',
+                    right: '0',
+                    bottom: '0px',
+                    top: '107px',
+                    padding:'5px',
+                    borderRadius:'10%',
+                  }}>
+                    <div style={popupText}>
+                        {station.properties.NAME} <br></br>
+                        {station.properties.LINE} :קו
+                    </div>
                 </div>
               </div>
             </Popup>
           </Marker>
-
         );
       })}
 
@@ -136,7 +141,6 @@ const Map = () => {
           positions={[line.geometry.coordinates]}></Polyline>
       ))
       }
-      
     </MapContainer >
   );
 };

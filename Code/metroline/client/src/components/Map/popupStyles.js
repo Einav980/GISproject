@@ -1,33 +1,22 @@
 const popupContent = {
     textAlign: "center",
-    height: "200px",
-    marginTop: "30px",
+    height: "130px",
+    width: '100px',
     fontFamily: "Verdana, Arial, Helvetica, sans-serif",
     fontWeight: "bold",
 };
-const popupHead = {
-    fontWeight: "bold",
-    fontSize: "22px",
+
+const popupImg = {
+    position: 'fixed',
+    top: '0px',
+    left: '0px',
+    right: '0px',
 };
 
 const popupText = {
-    fontSize: "15px",
-    marginBottom: "20px",
-    position: "relative",
+    fontSize: "12.5px",
+    margin: 'auto',
+    padding: '0px',
 };
 
-const lineText = {
-    fontSize: "15px",
-};
-
-const lineColor = {
-    m1: "#2896CC",
-    m2: "#F0952D",
-    m3: "#FFD400",
-};
-
-const getLineColor = (line) => {
-    return lineColor[line];
-};
-
-export { popupContent, popupHead, popupText, lineText, lineColor, getLineColor};
+export { popupContent, popupText,popupImg };
