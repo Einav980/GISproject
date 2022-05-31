@@ -1,29 +1,20 @@
-import L, { latLng, map } from 'leaflet';
 import {
   MapContainer,
   TileLayer,
   Marker,
   Popup,
   Polyline,
-  Circle,
 } from 'react-leaflet';
 import center from '../../constants';
 import { useEffect, useState } from 'react';
 import './index.css';
 import axios from 'axios';
-import {
-  getStationImage,
-  getStationIcon,
-  getUserIcon,
-  getImgLogo,
-} from '../Icons';
+import { getStationImage, getStationIcon, getUserIcon } from '../Icons';
 import { colors } from '../../constants';
 import { useDispatch, useSelector } from 'react-redux';
 import { setStations } from '../../redux/reducers/mapReducer';
 import ImageLogo from '../ImageLogo';
-
 import { popupContent, popupText, popupImg } from './popupStyles';
-import { render } from 'react-dom';
 
 const Map = () => {
   const [lines, setLines] = useState([]);

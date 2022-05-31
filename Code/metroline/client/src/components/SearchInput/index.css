@@ -9,9 +9,9 @@
 
 .input-suggestion {
   font-family: 'Varela', sans-serif;
-  border-bottom: 1px black dotted;
+  border-bottom: 1px black solid;
   display: flex;
   align-items: center;
   font-size: 1rem;
-  padding: 10px;
+  padding: 20px;
 }

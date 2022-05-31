@@ -26,9 +26,6 @@ import {
 
 const SearchRoute = () => {
   const dispatch = useDispatch();
-  const startTextBoxRef = useRef();
-  const endTextBoxRef = useRef();
-
   const [startAddress, setStartAddress] = useState('');
   const [endAddress, setEndAddress] = useState('');
 

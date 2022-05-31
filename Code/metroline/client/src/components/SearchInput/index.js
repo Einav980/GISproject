@@ -1,12 +1,9 @@
 import './index.css';
-import { Button, Input } from '@mui/material';
-import { Search, GpsFixed } from '@mui/icons-material';
+import { Search } from '@mui/icons-material';
 import PlacesAutocomplete, {
   geocodeByAddress,
-  getLatLng,
 } from 'react-places-autocomplete';
 import TextField from '@mui/material/TextField';
-import { forwardRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   setRouteStartLocation,
@@ -49,39 +46,52 @@ const SearchInput = (props) => {
         onSelect={handleSelect}>
         {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
           <div>
-            <TextField
-              className='search-route-text-field'
-              label={props.label}
-              variant='filled'
-              dir={props.direction}
-              fullWidth
-              InputProps={{
-                endAdornment: (
-                  <Button>
-                    <Search />
-                  </Button>
-                ),
-              }}
-              {...getInputProps({
-                placeholder: placeHolderText,
+            <div>
+              <TextField
+                className='search-route-text-field'
+                label={props.label}
+                variant='filled'
+                dir={props.direction}
+                fullWidth
+                InputProps={{
+                  endAdornment: (
+                    <p style={{ padding: '0px 0px 0px 10px', margin: '0px' }}>
+                      <Search />
+                    </p>
+                  ),
+                }}
+                {...getInputProps({
+                  placeholder: placeHolderText,
+                })}
+              />
+            </div>
+            <div
+              style={{
+                position: 'fixed',
+                zIndex: 100,
+                right: '15px',
+                width: '400px',
+                top: '255px',
+                borderRadius: '10px',
+              }}>
+              {loading ? <div> loading...</div> : null}
+              {suggestions.map((suggestion) => {
+                const style = suggestion.active
+                  ? {
+                      backgroundColor: '#1976d2',
+                      cursor: 'pointer',
+                      color: 'white',
+                    }
+                  : { backgroundColor: 'white', cursor: 'pointer' };
+                return (
+                  <div
+                    className='input-suggestion'
+                    {...getSuggestionItemProps(suggestion, { style })}>
+                    {suggestion.description}
+                  </div>
+                );
               })}
-            />
-            {loading ? <div> loading...</div> : null}
-            {suggestions.map((suggestion) => {
-              const style = suggestion.active
-                ? {
-                    backgroundColor: 'rgba(8,255,200,1)',
-                    cursor: 'pointer',
-                  }
-                : { backgroundColor: 'white', cursor: 'pointer' };
-              return (
-                <div
-                  className='input-suggestion'
-                  {...getSuggestionItemProps(suggestion, { style })}>
-                  {suggestion.description}
-                </div>
-              );
-            })}
+            </div>
           </div>
         )}
       </PlacesAutocomplete>
