@@ -11,25 +11,26 @@ import center from '../../constants';
 import { useEffect, useState } from 'react';
 import './index.css';
 import axios from 'axios';
-import { getStationImage, getStationIcon, getUserIcon, getImgLogo } from '../Icons';
+import {
+  getStationImage,
+  getStationIcon,
+  getUserIcon,
+  getImgLogo,
+} from '../Icons';
 import { colors } from '../../constants';
 import { useDispatch, useSelector } from 'react-redux';
 import { setStations } from '../../redux/reducers/mapReducer';
 import ImageLogo from '../ImageLogo';
 
-
-
-import {
-  popupContent,
-  popupText,
-  popupImg,
-} from './popupStyles';
+import { popupContent, popupText, popupImg } from './popupStyles';
 import { render } from 'react-dom';
 
 const Map = () => {
   const [lines, setLines] = useState([]);
   const { stations } = useSelector((state) => state.map);
-  const { selectedStations, routeStartStation, routeEndStation } = useSelector((state) => state.map);
+  const { selectedStations, routeStartStation, routeEndStation } = useSelector(
+    (state) => state.map
+  );
   var mapStations = stations;
   var isSearch = false;
   const dispatch = useDispatch();
@@ -73,7 +74,6 @@ const Map = () => {
       zoom={13}
       scrollWheel={true}
       style={{ width: '100vw', height: '100vh' }}>
-
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
@@ -101,9 +101,14 @@ const Map = () => {
               station.geometry.coordinates[0],
             ]}
             eventHandlers={{
-              click: (e) => { },
+              click: (e) => {},
             }}
-            icon={getStationIcon(station, isSearch, routeStartStation, routeEndStation)}>
+            icon={getStationIcon(
+              station,
+              isSearch,
+              routeStartStation,
+              routeEndStation
+            )}>
             <Popup>
               <div style={popupContent}>
                 <div style={popupImg}>
@@ -122,13 +127,13 @@ const Map = () => {
                     right: '0',
                     bottom: '0px',
                     top: '107px',
-                    padding:'5px',
-                    borderRadius:'10%',
+                    padding: '5px',
+                    borderRadius: '10%',
                   }}>
-                    <div style={popupText}>
-                        {station.properties.NAME} <br></br>
-                        {station.properties.LINE} :קו
-                    </div>
+                  <div style={popupText}>
+                    {station.properties.NAME} <br></br>
+                    {station.properties.LINE} :קו
+                  </div>
                 </div>
               </div>
             </Popup>
@@ -140,13 +145,11 @@ const Map = () => {
         <Polyline
           key={line.properties.DESCRPTION}
           color={colors[line.properties.NAME]}
-          weight={8}
+          weight={5}
           positions={[line.geometry.coordinates]}></Polyline>
-      ))
-      }
-    </MapContainer >
+      ))}
+    </MapContainer>
   );
 };
-
 
 export default Map;

@@ -6,7 +6,7 @@ import PlacesAutocomplete, {
   getLatLng,
 } from 'react-places-autocomplete';
 import TextField from '@mui/material/TextField';
-import { useState } from 'react';
+import { forwardRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   setRouteStartLocation,
@@ -16,7 +16,7 @@ import {
 } from '../../redux/reducers/mapReducer';
 
 const SearchInput = (props) => {
-  const [address, setAddress] = useState('');
+  const { value, onChange } = props;
   const { routeStartAddress, routeEndAddress } = useSelector(
     (state) => state.map
   );
@@ -34,18 +34,18 @@ const SearchInput = (props) => {
 
       if (props.isStart) {
         dispatch(setRouteStartLocation({ lat: lat, lng: lng }));
-        dispatch(setRouteStartAddress(address));
+        dispatch(setRouteStartAddress(routeStartAddress));
       } else {
         dispatch(setRouteEndLocation({ lat: lat, lng: lng }));
-        dispatch(setRouteEndAddress(address));
+        dispatch(setRouteEndAddress(routeEndAddress));
       }
     }
   };
   return (
     <div>
       <PlacesAutocomplete
-        value={address}
-        onChange={setAddress}
+        value={value}
+        onChange={onChange}
         onSelect={handleSelect}>
         {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
           <div>
@@ -62,7 +62,9 @@ const SearchInput = (props) => {
                   </Button>
                 ),
               }}
-              {...getInputProps({ placeholder: placeHolderText })}
+              {...getInputProps({
+                placeholder: placeHolderText,
+              })}
             />
             {loading ? <div> loading...</div> : null}
             {suggestions.map((suggestion) => {

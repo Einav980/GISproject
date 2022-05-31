@@ -1,10 +1,16 @@
 import './index.css';
 import strings from '../../constants/strings';
 import { Grid, Typography, IconButton, Button } from '@mui/material';
-import { CleanHands, Clear, ClearAll, Search, SwapVert } from '@mui/icons-material';
+import {
+  CleanHands,
+  Clear,
+  ClearAll,
+  Search,
+  SwapVert,
+} from '@mui/icons-material';
 import SearchInput from '../SearchInput';
 import { styled } from '@mui/material/styles';
-import { useState } from 'react';
+import { useRef, useState, forwardRef } from 'react';
 import { searchRoute } from '../SearchLogic';
 import { useDispatch, useSelector } from 'react-redux';
 import {
@@ -20,6 +26,11 @@ import {
 
 const SearchRoute = () => {
   const dispatch = useDispatch();
+  const startTextBoxRef = useRef();
+  const endTextBoxRef = useRef();
+
+  const [startAddress, setStartAddress] = useState('');
+  const [endAddress, setEndAddress] = useState('');
 
   const {
     routeStartLocation,
@@ -38,13 +49,17 @@ const SearchRoute = () => {
   };
 
   const swapLocations = () => {
-    const temp = routeStartLocation;
-    dispatch(setRouteStartLocation(routeEndLocation));
+    const temp = startAddress;
+    dispatch(setRouteStartLocation(startAddress));
     dispatch(setRouteEndLocation(temp));
+    setStartAddress(endAddress);
+    setEndAddress(temp);
   };
 
   const clearSearch = () => {
     dispatch(clearSelectedStations());
+    setStartAddress('');
+    setEndAddress('');
   };
 
   const swapStations = () => {
@@ -140,10 +155,17 @@ const SearchRoute = () => {
                 placeholder='בחרו נקודת התחלה'
                 direction='rtl'
                 isStart={true}
+                value={startAddress}
+                onChange={setStartAddress}
               />
             </Grid>
             <Grid item xs={12} padding={'5px'}>
-              <SearchInput placeholder='בחרו נקודת סיום' direction='rtl' />
+              <SearchInput
+                placeholder='בחרו נקודת סיום'
+                direction='rtl'
+                value={endAddress}
+                onChange={setEndAddress}
+              />
             </Grid>
           </Grid>
           <Grid
@@ -157,8 +179,14 @@ const SearchRoute = () => {
             </IconButton>
           </Grid>
         </Grid>
-        <Grid item xs={3} container justifyContent='center' alignItems='center' gap={'30px'} >
-        <Button
+        <Grid
+          item
+          xs={3}
+          container
+          justifyContent='center'
+          alignItems='center'
+          gap={'30px'}>
+          <Button
             variant='contained'
             startIcon={<Clear />}
             dir='ltr'
