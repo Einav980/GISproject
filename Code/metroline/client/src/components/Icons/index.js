@@ -26,6 +26,17 @@ const defaultIcon = new L.Icon({
   shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
 });
 
+const startIcon = new L.Icon({
+  iconRetinaUrl: require('../../assets/marker/pin.png'),
+  iconUrl: require('../../assets/marker/pin.png'),
+  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+});
+
+const destinationIcon = new L.Icon({
+  iconRetinaUrl: require('../../assets/marker/destination.png'),
+  iconUrl: require('../../assets/marker/destination.png'),
+  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+});
 
 const m1StationLogo = require('../../assets/marker/Metroline-Logo-m1.png');
 const m2StationLogo = require('../../assets/marker/Metroline-Logo-m2.png');
@@ -41,7 +52,9 @@ const icons = {
   m1: m1Icon,
   m2: m2Icon,
   m3: m3Icon,
-  default: defaultIcon,
+  start: startIcon,
+  end: destinationIcon,
+  default: defaultIcon
 };
 
 export const getLineIcon = (line) => {
@@ -56,7 +69,15 @@ export const getStationImage = (line) => {
   return stationImages[line];
 };
 
-export const getStationIcon = (station) => {
+export const getStationIcon = (station, isSearch, routeStartStation, routeEndStation) => {
+  if (isSearch) {
+    if (station.properties.MASAD == routeStartStation.properties.MASAD) {
+      return icons["start"];
+    }
+    else if (station.properties.MASAD == routeEndStation.properties.MASAD) {
+      return icons["end"];
+    }
+  }
   const line = station.properties.LINE.toLowerCase();
   return icons[line];
 };

@@ -29,8 +29,9 @@ import { render } from 'react-dom';
 const Map = () => {
   const [lines, setLines] = useState([]);
   const { stations } = useSelector((state) => state.map);
-  const { selectedStations } = useSelector((state) => state.map);
+  const { selectedStations, routeStartStation, routeEndStation } = useSelector((state) => state.map);
   var mapStations = stations;
+  var isSearch = false;
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -59,8 +60,10 @@ const Map = () => {
   }
   if (selectedStations.length) {
     mapStations = selectedStations;
+    isSearch = true;
   } else {
     mapStations = stations;
+    isSearch = false;
   }
 
   return (
@@ -100,7 +103,7 @@ const Map = () => {
             eventHandlers={{
               click: (e) => { },
             }}
-            icon={getStationIcon(station)}>
+            icon={getStationIcon(station, isSearch, routeStartStation, routeEndStation)}>
             <Popup>
               <div style={popupContent}>
                 <div style={popupImg}>
