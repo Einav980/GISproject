@@ -71,7 +71,7 @@ const SearchInput = (props) => {
                 zIndex: 100,
                 right: '15px',
                 width: '400px',
-                top: '255px',
+                top: '285px',
                 borderRadius: '10px',
               }}>
               {loading ? <div> loading...</div> : null}

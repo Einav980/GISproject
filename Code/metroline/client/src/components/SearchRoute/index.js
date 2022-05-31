@@ -180,6 +180,7 @@ const SearchRoute = () => {
           item
           xs={3}
           container
+          padding={'10px'}
           justifyContent='center'
           alignItems='center'
           gap={'30px'}>
@@ -194,6 +195,7 @@ const SearchRoute = () => {
             variant='contained'
             startIcon={<Search />}
             dir='ltr'
+            disabled={startAddress.length === 0 || endAddress.length === 0}
             onClick={handleSearch}>
             חפש
           </Button>
