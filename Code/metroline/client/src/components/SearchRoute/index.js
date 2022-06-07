@@ -1,11 +1,7 @@
 import './index.css';
 import strings from '../../constants/strings';
 import { Grid, Typography, IconButton, Button } from '@mui/material';
-import {
-  Clear,
-  Search,
-  SwapVert,
-} from '@mui/icons-material';
+import { Clear, Search, SwapVert } from '@mui/icons-material';
 import SearchInput from '../SearchInput';
 import { useState } from 'react';
 import { searchRoute } from '../SearchLogic';
@@ -19,6 +15,12 @@ import {
   setRouteEndAddress,
   setRouteStartLocation,
   setRouteEndLocation,
+  clearRouteEndAddress,
+  clearRouteEndLocation,
+  clearRouteEndStation,
+  clearRouteStartAddress,
+  clearRouteStartLocation,
+  clearRouteStartStation,
 } from '../../redux/reducers/mapReducer';
 
 const SearchRoute = () => {
@@ -46,12 +48,16 @@ const SearchRoute = () => {
     const temp = routeStartLocation;
     dispatch(setRouteStartLocation(routeEndLocation));
     dispatch(setRouteEndLocation(temp));
-    setStartAddress(routeEndLocation);
-    setEndAddress(temp);
   };
 
   const clearSearch = () => {
     dispatch(clearSelectedStations());
+    dispatch(clearRouteStartAddress());
+    dispatch(clearRouteEndAddress());
+    dispatch(clearRouteStartLocation());
+    dispatch(clearRouteEndLocation());
+    dispatch(clearRouteStartStation());
+    dispatch(clearRouteEndStation());
     setStartAddress('');
     setEndAddress('');
   };
@@ -63,9 +69,12 @@ const SearchRoute = () => {
   };
 
   const swapAddresses = () => {
-    const temp = routeStartAddress;
+    const temp = startAddress;
     dispatch(setRouteStartAddress(routeEndAddress));
     dispatch(setRouteEndAddress(temp));
+
+    setStartAddress(endAddress);
+    setEndAddress(temp);
   };
 
   const handleSearch = () => {
@@ -82,6 +91,8 @@ const SearchRoute = () => {
     const routeStations = searchRoute(startStationMasad, endStationMasad);
     dispatch(clearSelectedStations());
     dispatch(setStationSelected(routeStations));
+    dispatch(setRouteStartAddress(startAddress));
+    dispatch(setRouteEndAddress(endAddress));
   };
 
   const getNearestStation = (lat, lng) => {

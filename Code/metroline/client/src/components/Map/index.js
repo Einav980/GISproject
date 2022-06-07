@@ -5,7 +5,7 @@ import {
   Popup,
   Polyline,
 } from 'react-leaflet';
-import center, {colors} from '../../constants';
+import center, { colors } from '../../constants';
 import { useEffect, useState } from 'react';
 import './index.css';
 import axios from 'axios';

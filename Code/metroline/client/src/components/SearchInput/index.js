@@ -3,6 +3,7 @@ import { Search } from '@mui/icons-material';
 import PlacesAutocomplete, {
   geocodeByAddress,
 } from 'react-places-autocomplete';
+import strings from '../../constants/strings';
 import TextField from '@mui/material/TextField';
 import { useDispatch, useSelector } from 'react-redux';
 import {
@@ -20,11 +21,12 @@ const SearchInput = (props) => {
   const dispatch = useDispatch();
   const placeHolderText = props.placeholder;
 
-  const handleSelect = async (value) => {
+  const handleSelect = async (selectedValue) => {
     var lat = 0;
     var lng = 0;
-    if (value) {
-      await geocodeByAddress(value).then((response) => {
+
+    if (selectedValue) {
+      await geocodeByAddress(selectedValue).then((response) => {
         lat = response[0].geometry.location.lat();
         lng = response[0].geometry.location.lng();
       });
@@ -74,7 +76,7 @@ const SearchInput = (props) => {
                 top: '285px',
                 borderRadius: '10px',
               }}>
-              {loading ? <div> loading...</div> : null}
+              {loading ? <div>{strings.LOADING_TEXT}</div> : null}
               {suggestions.map((suggestion) => {
                 const style = suggestion.active
                   ? {
@@ -86,6 +88,9 @@ const SearchInput = (props) => {
                 return (
                   <div
                     className='input-suggestion'
+                    style={{
+                      zIndex: 105,
+                    }}
                     {...getSuggestionItemProps(suggestion, { style })}>
                     {suggestion.description}
                   </div>

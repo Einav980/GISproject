@@ -9,9 +9,8 @@ const mapInitialState = {
     lat: 0.0,
     lng: 0.0,
   },
-  routeStartStation: {},
-  routeEndStation: {},
-  routeStations: [],
+  routeStartStation: null,
+  routeEndStation: null,
   stations: [],
   selectedStations: [],
   routeStartAddress: '',
@@ -51,6 +50,24 @@ export const mapSlice = createSlice({
     setRouteEndAddress: (state, { payload }) => {
       state.routeEndAddress = payload;
     },
+    clearRouteEndLocation: (state) => {
+      state.routeEndLocation = mapInitialState.routeEndLocation;
+    },
+    clearRouteStartLocation: (state) => {
+      state.routeStartLocation = mapInitialState.routeStartLocation;
+    },
+    clearRouteStartAddress: (state) => {
+      state.routeStartAddress = mapInitialState.routeStartAddress;
+    },
+    clearRouteEndAddress: (state) => {
+      state.routeEndAddress = mapInitialState.routeEndAddress;
+    },
+    clearRouteStartStation: (state) => {
+      state.routeStartStation = mapInitialState.routeStartStation;
+    },
+    clearRouteEndStation: (state) => {
+      state.routeEndStation = mapInitialState.routeEndStation;
+    },
   },
 });
 
@@ -64,6 +81,12 @@ export const {
   clearSelectedStations,
   setRouteStartAddress,
   setRouteEndAddress,
+  clearRouteEndAddress,
+  clearRouteEndLocation,
+  clearRouteEndStation,
+  clearRouteStartAddress,
+  clearRouteStartLocation,
+  clearRouteStartStation,
 } = mapSlice.actions;
 
 export default mapSlice.reducer;
