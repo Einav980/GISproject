@@ -5,12 +5,12 @@ import {
   Popup,
   Polyline,
 } from 'react-leaflet';
-import center from '../../constants';
+import center, {colors} from '../../constants';
 import { useEffect, useState } from 'react';
 import './index.css';
 import axios from 'axios';
-import { getStationImage, getStationIcon, getUserIcon } from '../Icons';
-import { colors } from '../../constants';
+import { getStationImage, getStationIcon, getUserLocationIcon } from '../Icons';
+import strings from '../../constants/strings';
 import { useDispatch, useSelector } from 'react-redux';
 import { setStations } from '../../redux/reducers/mapReducer';
 import ImageLogo from '../ImageLogo';
@@ -44,12 +44,14 @@ const Map = () => {
     center: location,
     zoom: 13,
   };
+
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition((loc) => {
       location.lat = loc.coords.latitude;
       location.lng = loc.coords.longitude;
     });
   }
+
   if (selectedStations.length) {
     mapStations = selectedStations;
     isSearch = true;
@@ -73,10 +75,10 @@ const Map = () => {
 
       <Marker
         position={[options.center.lat, options.center.lng]}
-        icon={getUserIcon()}>
+        icon={getUserLocationIcon()}>
         <Popup>
           <p id='popup-style'>
-            המיקום שלי
+            {strings.USER_LOCATION_TEXT}
             <br />
           </p>
         </Popup>

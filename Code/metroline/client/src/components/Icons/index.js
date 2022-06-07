@@ -61,7 +61,7 @@ export const getLineIcon = (line) => {
   return icons[line];
 };
 
-export const getUserIcon = () => {
+export const getUserLocationIcon = () => {
   return icons['default'];
 };
 
@@ -76,9 +76,9 @@ export const getStationIcon = (
   routeEndStation
 ) => {
   if (isSearch) {
-    if (station.properties.MASAD == routeStartStation.properties.MASAD) {
+    if (station.properties.MASAD === routeStartStation.properties.MASAD) {
       return icons['start'];
-    } else if (station.properties.MASAD == routeEndStation.properties.MASAD) {
+    } else if (station.properties.MASAD === routeEndStation.properties.MASAD) {
       return icons['end'];
     }
   }

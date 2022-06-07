@@ -2,15 +2,12 @@ import './index.css';
 import strings from '../../constants/strings';
 import { Grid, Typography, IconButton, Button } from '@mui/material';
 import {
-  CleanHands,
   Clear,
-  ClearAll,
   Search,
   SwapVert,
 } from '@mui/icons-material';
 import SearchInput from '../SearchInput';
-import { styled } from '@mui/material/styles';
-import { useRef, useState, forwardRef } from 'react';
+import { useState } from 'react';
 import { searchRoute } from '../SearchLogic';
 import { useDispatch, useSelector } from 'react-redux';
 import {
@@ -46,10 +43,10 @@ const SearchRoute = () => {
   };
 
   const swapLocations = () => {
-    const temp = startAddress;
-    dispatch(setRouteStartLocation(startAddress));
+    const temp = routeStartLocation;
+    dispatch(setRouteStartLocation(routeEndLocation));
     dispatch(setRouteEndLocation(temp));
-    setStartAddress(endAddress);
+    setStartAddress(routeEndLocation);
     setEndAddress(temp);
   };
 
