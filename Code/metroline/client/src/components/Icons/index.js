@@ -21,8 +21,8 @@ const m3Icon = new L.Icon({
 });
 
 const defaultIcon = new L.Icon({
-  iconRetinaUrl: require('../../assets/marker/matroline-icon-station-x2-selected.png'),
-  iconUrl: require('../../assets/marker/matroline-icon-station-selected.png'),
+  iconRetinaUrl: require('../../assets/marker/user-location-x2.png'),
+  iconUrl: require('../../assets/marker/user-location.png'),
   shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
 });
 

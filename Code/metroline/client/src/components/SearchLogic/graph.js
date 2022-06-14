@@ -1,25 +1,5 @@
 const stat = require('../SearchLogic/nigborsStations.json');
 
-// const adjacencyList = new Map();
-
-// stat.stationsList.forEach((station) => {
-//   adjacencyList.set(station.station, station.neighbors);
-// });
-
-// const stationsNeighbors = [];
-
-// stat.stationsList.forEach((station) => {
-//   stationsNeighbors.push({
-//     [station.station]: 1,
-//   });
-//   stationsNeighbors.push({
-//       const neighjb
-//     [station.station]: station.neighbors.map((neighbor) => {
-//       return { [neighbor]: 1 };
-//     }),
-//   });
-// });
-
 const stationsGraph = {
   'M1N-1': { 'M1N-2': 1 },
   'M1N-2': { 'M1N-1': 1, 'M1N-3': 1 },

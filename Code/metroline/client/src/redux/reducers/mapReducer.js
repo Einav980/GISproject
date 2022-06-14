@@ -37,9 +37,15 @@ export const mapSlice = createSlice({
       state.routeEndStation = payload;
     },
     setStationSelected: (state, { payload }) => {
-      state.selectedStations = state.stations.filter((station) =>
-        payload.includes(station.properties.MASAD)
+      state.selectedStations = payload.map(
+        (masad) =>
+          state.stations.filter(
+            (station) => station.properties.MASAD === masad
+          )[0]
       );
+      // state.selectedStations = state.stations.filter((station) =>
+      //   payload.includes(station.properties.MASAD)
+      // );
     },
     clearSelectedStations: (state) => {
       state.selectedStations = [];
