@@ -7,6 +7,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import CircleOutlinedIcon from '@mui/icons-material/CircleOutlined';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import SwapHorizOutlinedIcon from '@mui/icons-material/SwapHorizOutlined';
+import { colors } from '../../constants';
 
 const SearchResult = () => {
   const { selectedStations } = useSelector((state) => state.map);
@@ -59,16 +60,28 @@ const SearchResult = () => {
                     alignContent='center'>
                     <Grid item xs={6}>
                       {stationType === 'start' && (
-                        <CircleIcon fontSize='small' />
+                        <CircleIcon
+                          fontSize='small'
+                          htmlColor={colors[station.properties.LINE]}
+                        />
                       )}
                       {stationType === 'mid' && (
-                        <CircleOutlinedIcon fontSize='small' />
+                        <CircleOutlinedIcon
+                          fontSize='small'
+                          htmlColor={colors[station.properties.LINE]}
+                        />
                       )}
                       {stationType === 'end' && (
-                        <FmdGoodIcon fontSize='small' />
+                        <FmdGoodIcon
+                          fontSize='small'
+                          htmlColor={colors[station.properties.LINE]}
+                        />
                       )}
                       {stationType === 'swap' && (
-                        <SwapHorizOutlinedIcon fontSize='small' />
+                        <SwapHorizOutlinedIcon
+                          fontSize='small'
+                          htmlColor={colors[station.properties.LINE]}
+                        />
                       )}
                     </Grid>
                     <Grid item xs={6}>
